@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-10T05:24:36.941Z",
+  "generated_at": "2026-06-11T05:58:29.713Z",
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,
@@ -15,8 +15,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://tv.cctv.com/",
-      "response_ms": 673,
-      "checked_at": "2026-06-10T05:24:35.809Z",
+      "response_ms": 580,
+      "checked_at": "2026-06-11T05:58:28.561Z",
       "attempts": 1,
       "error": null
     },
@@ -26,8 +26,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://www.1905.com/vod/",
-      "response_ms": 755,
-      "checked_at": "2026-06-10T05:24:35.965Z",
+      "response_ms": 956,
+      "checked_at": "2026-06-11T05:58:28.757Z",
       "attempts": 1,
       "error": null
     },
@@ -37,8 +37,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://archive.org/details/movies",
-      "response_ms": 459,
-      "checked_at": "2026-06-10T05:24:35.966Z",
+      "response_ms": 436,
+      "checked_at": "2026-06-11T05:58:28.758Z",
       "attempts": 1,
       "error": null
     },
@@ -48,8 +48,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://www.opensubtitles.com/zh-CN",
-      "response_ms": 402,
-      "checked_at": "2026-06-10T05:24:35.967Z",
+      "response_ms": 387,
+      "checked_at": "2026-06-11T05:58:28.759Z",
       "attempts": 1,
       "error": null
     },
@@ -59,8 +59,8 @@
       "status": "restricted",
       "http_status": 403,
       "final_url": "https://kodi.tv/",
-      "response_ms": 36,
-      "checked_at": "2026-06-10T05:24:36.369Z",
+      "response_ms": 77,
+      "checked_at": "2026-06-11T05:58:29.141Z",
       "attempts": 1,
       "error": null
     },
@@ -70,8 +70,8 @@
       "status": "reachable",
       "http_status": 206,
       "final_url": "https://github.com/iptv-org/iptv",
-      "response_ms": 536,
-      "checked_at": "2026-06-10T05:24:36.405Z",
+      "response_ms": 558,
+      "checked_at": "2026-06-11T05:58:29.146Z",
       "attempts": 1,
       "error": null
     },
@@ -81,8 +81,8 @@
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://academictorrents.com/",
-      "response_ms": 46,
-      "checked_at": "2026-06-10T05:24:36.425Z",
+      "response_ms": 126,
+      "checked_at": "2026-06-11T05:58:29.194Z",
       "attempts": 1,
       "error": null
     }
