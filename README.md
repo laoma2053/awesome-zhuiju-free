@@ -338,6 +338,37 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 <!-- featured-resources:end -->
 
+## 加入追剧社群
+
+想交流资源、反馈失效或获取更新，可以加入 QQ 群或腾讯频道。
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="50%" nowrap>QQ群聊</th>
+      <th width="50%" nowrap>腾讯频道</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://qm.qq.com/q/UKw1seyvyU"><img src="resources/images/qq-group-3.jpg" alt="追剧吧 QQ 群二维码" width="260"></a>
+      </td>
+      <td align="center">
+        <a href="https://pd.qq.com/s/f4n1fpc6h"><img src="resources/images/tencent-channel.jpg" alt="腾讯频道二维码" width="260"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" nowrap><strong>群号：995056182</strong></td>
+      <td align="center" nowrap><strong>频道号：pd41891326</strong></td>
+    </tr>
+    <tr>
+      <td align="center" nowrap><a href="https://qm.qq.com/q/UKw1seyvyU">加入 QQ 群聊</a></td>
+      <td align="center" nowrap><a href="https://pd.qq.com/s/f4n1fpc6h">进入腾讯频道</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ## 怎么快速选择
 
 如果你只是想尽快找到合适入口，可以先按用途筛选，再看推荐指数、状态和检测时间。
