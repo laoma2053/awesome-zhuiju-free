@@ -66,7 +66,7 @@
         "network": "user submitted"
       },
       "result": "pending_review",
-      "notes": "用户推荐：夸克搜、追剧吧、谷哥搜，均归类为网盘资源搜索；同时将夸克点搜推荐指数调整为 5 星。后续需要补充访问速度、广告干扰、版权和链接安全验证。"
+      "notes": "用户推荐：KK网盘搜、追剧吧、谷哥搜，均归类为网盘资源搜索；同时将夸克点搜推荐指数调整为 5 星。后续需要补充访问速度、广告干扰、版权和链接安全验证。"
     },
     {
       "id": "verify-20260619-magnet-search-batch",
@@ -181,7 +181,7 @@
         "network": "screenshot submitted"
       },
       "result": "pending_review",
-      "notes": "根据截图信息收录：BT影视（https://www.btbtl.com，测评备注：4k高清电影BT下载），推荐指数为 5 星。截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与链接安全性。"
+      "notes": "根据截图信息收录：BT影视（https://www.btbtla.com，测评备注：4k高清电影BT下载），推荐指数为 5 星。截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与链接安全性。"
     },
     {
       "id": "verify-20260704-online-video-third-batch",

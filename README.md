@@ -271,7 +271,7 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:gugeso -->2026&#8209;07&#8209;04<!-- /availability-date:gugeso --></td>
     </tr>
     <tr>
-      <td nowrap><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">夸克搜</a></td>
+      <td nowrap><a href="https://www.kuakeso.net/" target="_blank" rel="noopener noreferrer">KK网盘搜</a></td>
       <td nowrap>夸克百度网盘搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kuakeso -->🟢&#8288;可&#8288;访问<!-- /availability:kuakeso --></td>
@@ -303,10 +303,10 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:ciligou -->2026&#8209;07&#8209;04<!-- /availability-date:ciligou --></td>
     </tr>
     <tr>
-      <td nowrap><a href="https://www.btbtl.com" target="_blank" rel="noopener noreferrer">BT影视</a></td>
+      <td nowrap><a href="https://www.btbtla.com" target="_blank" rel="noopener noreferrer">BT影视</a></td>
       <td nowrap>4k高清电影BT下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:bt-yingshi -->🔴&#8288;无法&#8288;访问<!-- /availability:bt-yingshi --></td>
+      <td align="center" nowrap><!-- availability:bt-yingshi -->⚪&#8288;未&#8288;检测<!-- /availability:bt-yingshi --></td>
       <td align="center" nowrap><!-- availability-date:bt-yingshi -->2026&#8209;07&#8209;04<!-- /availability-date:bt-yingshi --></td>
     </tr>
     <tr>

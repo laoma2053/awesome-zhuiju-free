@@ -517,8 +517,8 @@
     },
     {
       "resource_id": "bt-yingshi",
-      "url": "https://www.btbtl.com",
-      "status": "unreachable",
+      "url": "https://www.btbtla.com",
+      "status": "unknown",
       "http_status": null,
       "final_url": null,
       "response_ms": 885,

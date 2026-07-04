@@ -1773,7 +1773,7 @@
     {
       "id": "bt-yingshi",
       "name": "BT影视",
-      "url": "https://www.btbtl.com",
+      "url": "https://www.btbtla.com",
       "category": "magnet_search",
       "summary": "4k高清电影BT下载。",
       "summary_short": "4k高清电影BT下载",
@@ -1849,7 +1849,7 @@
     },
     {
       "id": "kuakeso",
-      "name": "夸克搜",
+      "name": "KK网盘搜",
       "url": "https://www.kuakeso.net/",
       "category": "cloud_search",
       "summary": "支持夸克网盘与百度网盘资源搜索的网盘搜索站。",
