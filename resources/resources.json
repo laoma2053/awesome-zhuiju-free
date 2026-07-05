@@ -1848,11 +1848,11 @@
     },
     {
       "id": "kuake-so-1",
-      "name": "夸克点搜",
-      "url": "https://www.kuake.so/",
+      "name": "PanSou",
+      "url": "https://pansou.de",
       "category": "cloud_search",
-      "summary": "夸克点搜是一个免费的夸克网盘资源搜索平台，通过聚合互联网上公开分享的夸克网盘资源链接，为用户提供快速、精准的搜索服务。",
-      "summary_short": "专注夸克网盘资源搜索",
+      "summary": "纯净的夸克网盘资源搜索引擎",
+      "summary_short": "纯净的夸克网盘资源搜索引擎",
       "tags": ["网盘搜索", "夸克网盘", "中文"],
       "access": {
         "requires_login": false,

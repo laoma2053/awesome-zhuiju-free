@@ -257,8 +257,8 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
   </thead>
   <tbody>
     <tr>
-      <td nowrap><a href="https://www.kuake.so/" target="_blank" rel="noopener noreferrer">夸克点搜</a></td>
-      <td nowrap>专注夸克网盘资源搜索</td>
+      <td nowrap><a href="https://pansou.de" target="_blank" rel="noopener noreferrer">PanSou</a></td>
+      <td nowrap>纯净的夸克网盘资源搜索引擎</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:kuake-so-1 -->🟢&#8288;可&#8288;访问<!-- /availability:kuake-so-1 --></td>
       <td align="center" nowrap><!-- availability-date:kuake-so-1 -->2026&#8209;07&#8209;05<!-- /availability-date:kuake-so-1 --></td>
