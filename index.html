@@ -6,6 +6,15 @@
   <title>追剧免费资源汇总</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
+  <style>
+/* 通过标题文本匹配，隐藏社群板块 */
+.content h2:nth-of-type(1):has-text("加入追剧社群"),
+.content h2:nth-of-type(1):has-text("加入追剧社群") ~ *,
+.content h2:nth-of-type(2):has-text("怎么快速选择"),
+.content h2:nth-of-type(2):has-text("怎么快速选择") ~ table{
+    display: none !important;
+}
+</style>
 </head>
 <body>
   <div id="app"></div>
