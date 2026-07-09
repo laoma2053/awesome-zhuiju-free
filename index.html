@@ -9,12 +9,22 @@
 <body>
   <div id="app"></div>
   <script>
-    window.$docsify = {
-      name: '免费追剧资源',
-      repo: '',
-      loadSidebar: false,
-      homepage: "README.md"
+window.$docsify = {
+  name: '免费追剧资源',
+  repo: '',
+  loadSidebar: false,
+  themeable: {
+    defaultTheme: 'dark'
+  },
+  homepage: "README.md",
+  markdown: {
+    postProcessor(html) {
+      // 请求加载自定义md内容拼接到页面底部
+      return html + `<div id="custom-block"></div>
+<script>fetch('./custom-add.md').then(r=>r.text()).then(md=>{window.$docsify.dom('#custom-block').html(window.$docsify.compiler.compile(md))})</script>`
     }
+  }
+}
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
