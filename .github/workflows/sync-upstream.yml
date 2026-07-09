@@ -2,7 +2,7 @@ name: 自动同步上游原仓库
 on:
   schedule:
     # UTC 0点=北京时间早上8点，每日执行一次同步
-    - cron: '0 0 * * *'
+    - cron: '0 17 * * *'
   # 支持网页手动点按钮立刻触发同步
   workflow_dispatch:
 
