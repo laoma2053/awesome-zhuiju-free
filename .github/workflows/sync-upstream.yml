@@ -1,0 +1,32 @@
+name: 自动同步上游原仓库
+on:
+  schedule:
+    # UTC 0点=北京时间早上8点，每日执行一次同步
+    - cron: '0 0 * * *'
+  # 支持网页手动点按钮立刻触发同步
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取你Fork仓库代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置Git信息
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # 绑定上游官方仓库地址
+          git remote add upstream https://github.com/laoma2053/awesome-zhuiju-free.git
+
+      - name: 拉取上游main分支、合并代码
+        run: |
+          git fetch upstream
+          git checkout main
+          git merge upstream/main --no-edit
+
+      - name: 推送合并后的代码到自己仓库main分支
+        run: git push origin main
