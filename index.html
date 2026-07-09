@@ -6,6 +6,10 @@
   <title>追剧免费资源汇总</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
+  <!-- CSS第一层强制视觉隐藏，不受JS时序影响 -->
+  <style>
+    [data-hide-block] {display:none !important;}
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -19,21 +23,28 @@
       },
       homepage: "README.md",
       afterEach() {
-        const container = document.querySelector('.content');
-        if(!container) return;
-        // 遍历h2标题匹配并移除整块板块
-        container.querySelectorAll('h2').forEach(heading=>{
-          const text = heading.textContent.trim();
-          if(text === "加入追剧社群" || text === "怎么快速选择"){
-            let curNode = heading;
-            // 循环删除标题以及后面所有同级子元素
-            while(curNode){
-              const next = curNode.nextElementSibling;
-              curNode.remove();
-              curNode = next;
+        // 多次延时重试，避开DOM未渲染的时序问题
+        const runRemove = ()=>{
+          const content = document.querySelector('.content');
+          if(!content) return;
+          content.querySelectorAll('h2').forEach(h2=>{
+            const txt = h2.textContent.trim();
+            if(["加入追剧社群","怎么快速选择"].includes(txt)){
+              // 打标记走CSS隐藏，同时原生DOM移除
+              let node = h2;
+              while(node){
+                node.setAttribute('data-hide-block','1');
+                const next = node.nextElementSibling;
+                node.remove();
+                node = next;
+              }
             }
-          }
-        })
+          })
+        }
+        // 分3档延时适配Docsify不同渲染耗时
+        setTimeout(runRemove, 80);
+        setTimeout(runRemove, 350);
+        setTimeout(runRemove, 900);
       }
     }
   </script>
