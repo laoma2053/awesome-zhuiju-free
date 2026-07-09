@@ -10,30 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-    /* 主页限定隐藏多余板块 */
-    [data-page="README"] .content h2:where(
-      :has-text("加入追剧社群"),
-      :has-text("怎么快速选择"),
-      :has-text("怎么看评分"),
-      :has-text("我们怎么维护"),
-      :has-text("如何参与"),
-      :has-text("项目原则"),
-      :has-text("免责声明"),
-      :has-text("Star History")
-    ),
-    [data-page="README"] .content h2:where(
-      :has-text("加入追剧社群"),
-      :has-text("怎么快速选择"),
-      :has-text("怎么看评分"),
-      :has-text("我们怎么维护"),
-      :has-text("如何参与"),
-      :has-text("项目原则"),
-      :has-text("免责声明"),
-      :has-text("Star History")
-    ) ~ * {
-      display: none !important;
-    }
-    /* 核心修复：禁止td单元格继承th表头文本，解决文字串扰 */
+    /* 修复主题伪元素把表头文字填充进单元格的bug */
     .content table td::before,
     .content table td::after{
       content: unset !important;
@@ -43,12 +20,38 @@
 <body>
   <div id="app"></div>
   <script>
+    const hideSectionTitles = [
+      "## 加入追剧社群",
+      "## 怎么快速选择",
+      "## 怎么看评分",
+      "## 我们怎么维护",
+      "## 如何参与",
+      "## 项目原则",
+      "## 免责声明",
+      "## Star History"
+    ];
     window.$docsify = {
       name: '免费追剧资源',
       repo: '',
       loadSidebar: true,
       themeable: { defaultTheme: 'dark' },
-      homepage: "README.md"
+      homepage: "README.md",
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (markdown, next) {
+            // 只对主页README执行内容裁剪，custom-add.md子页面原样渲染
+            if (vm.route.file !== 'README.md') {
+              next(markdown);
+              return;
+            }
+            hideSectionTitles.forEach(title => {
+              const reg = new RegExp(`^${title}\\n[\\s\\S]*?(?=^## |$)`, 'gm');
+              markdown = markdown.replace(reg, '');
+            })
+            next(markdown);
+          })
+        }
+      ]
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
