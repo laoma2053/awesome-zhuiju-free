@@ -18,13 +18,14 @@
         defaultTheme: 'dark'
       },
       homepage: "README.md",
-      done(){
+      mounted(){
         fetch('./custom-add.md')
-          .then(res=>res.text())
-          .then(mdText=>{
-              const renderHtml = window.$docsify.compiler.compile(mdText)
-              document.querySelector('.content').insertAdjacentHTML('beforeend',`<hr><h2>个人补充站点</h2>${renderHtml}`)
-          })
+        .then(res => res.text())
+        .then(mdText => {
+          const html = window.$docsify.compiler.compile(mdText)
+          document.querySelector('.content').insertAdjacentHTML('beforeend',`<hr><h2>个人补充站点</h2>${html}`)
+        })
+        .catch(err => console.error("自定义板块加载失败：", err))
       }
     }
   </script>
