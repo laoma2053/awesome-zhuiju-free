@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>追剧免费资源汇总</title>
-  <!-- Docsify核心样式+脚本 -->
+  <!-- Docsify基础样式 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <!-- 更换Nord低压抑暗色主题 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
 </head>
 <body>
   <div id="app"></div>
@@ -16,11 +17,14 @@
       repo: '',
       loadSidebar: false,
       themeable: {
-  defaultTheme: 'dark'
-}
-homepage: "README.md" // 默认加载README.md作为首页内容
+        defaultTheme: 'dark'
+      },
+      homepage: "README.md" // 默认加载README.md作为首页内容
     }
   </script>
+  <!-- Docsify主脚本 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- 补充主题插件JS（之前缺失会导致主题配置失效） -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 </body>
 </html>
