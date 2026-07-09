@@ -5,27 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>追剧免费资源汇总</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
-window.$docsify = {
-  name: '免费追剧资源',
-  repo: '',
-  loadSidebar: false,
-  themeable: {
-    defaultTheme: 'dark'
-  },
-  homepage: "README.md",
-  markdown: {
-    postProcessor(html) {
-      // 请求加载自定义md内容拼接到页面底部
-      return html + `<div id="custom-block"></div>
-<script>fetch('./custom-add.md').then(r=>r.text()).then(md=>{window.$docsify.dom('#custom-block').html(window.$docsify.compiler.compile(md))})</script>`
+    window.$docsify = {
+      name: '免费追剧资源',
+      repo: '',
+      loadSidebar: false,
+      themeable: {
+        defaultTheme: 'dark'
+      },
+      homepage: "README.md",
+      done(){
+        fetch('./custom-add.md')
+          .then(res=>res.text())
+          .then(mdText=>{
+              const renderHtml = window.$docsify.compiler.compile(mdText)
+              document.querySelector('.content').insertAdjacentHTML('beforeend',`<hr><h2>个人补充站点</h2>${renderHtml}`)
+          })
+      }
     }
-  }
-}
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 </body>
 </html>
