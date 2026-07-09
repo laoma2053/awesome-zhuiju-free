@@ -6,15 +6,6 @@
   <title>追剧免费资源汇总</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
-  <style>
-    /* 隐藏「加入追剧社群」、「怎么快速选择」板块 */
-    .content h2:contains("加入追剧社群"),
-    .content h2:contains("加入追剧社群") ~ *,
-    .content h2:contains("怎么快速选择"),
-    .content h2:contains("怎么快速选择") ~ * {
-        display: none !important;
-    }
-  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -26,7 +17,15 @@
       themeable: {
         defaultTheme: 'dark'
       },
-      homepage: "README.md"
+      homepage: "README.md",
+      // Markdown渲染前删掉指定板块，规避CSS选择器兼容问题
+      preProcessor(rawMarkdown) {
+        // 移除「加入追剧社群」整块内容
+        rawMarkdown = rawMarkdown.replace(/## 加入追剧社群[\s\S]*?(?=## 怎么快速选择)/g, "");
+        // 移除「怎么快速选择」以及页面后续所有剩余内容
+        rawMarkdown = rawMarkdown.replace(/## 怎么快速选择[\s\S]*/g, "");
+        return rawMarkdown;
+      }
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
