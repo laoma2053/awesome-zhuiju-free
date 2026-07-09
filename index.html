@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-/* 通过标题文本匹配，隐藏社群板块 */
-.content h2:nth-of-type(1):has-text("加入追剧社群"),
-.content h2:nth-of-type(1):has-text("加入追剧社群") ~ *,
-.content h2:nth-of-type(2):has-text("怎么快速选择"),
-.content h2:nth-of-type(2):has-text("怎么快速选择") ~ table{
-    display: none !important;
-}
-</style>
+    /* 隐藏「加入追剧社群」、「怎么快速选择」板块 */
+    .content h2:contains("加入追剧社群"),
+    .content h2:contains("加入追剧社群") ~ *,
+    .content h2:contains("怎么快速选择"),
+    .content h2:contains("怎么快速选择") ~ * {
+        display: none !important;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -26,22 +26,7 @@
       themeable: {
         defaultTheme: 'dark'
       },
-      homepage: "README.md",
-      afterEach(){
-        // 避免重复拼接板块
-        if(document.querySelector('#custom-append-block')) return
-        fetch('./custom-add.md')
-        .then(res => res.text())
-        .then(mdText => {
-          const html = window.$docsify.compiler.compile(mdText)
-          document.querySelector('.content').insertAdjacentHTML('beforeend',`
-<hr id="custom-append-block">
-<h2>个人补充站点</h2>
-${html}
-`)
-        })
-        .catch(err => console.error("自定义板块加载失败：", err))
-      }
+      homepage: "README.md"
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
