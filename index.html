@@ -17,7 +17,6 @@
       themeable: { defaultTheme: 'dark' },
       homepage: "README.md",
       preProcessor(md) {
-        // 严格限定仅删除指定8个板块，非贪婪匹配，不会误伤中间正常资源内容
         const dropTitles = [
           "## 加入追剧社群",
           "## 怎么快速选择",
@@ -29,8 +28,8 @@
           "## Star History"
         ];
         dropTitles.forEach(title=>{
-          // 限定匹配范围：当前标题内容，截止到同级二级标题/文档末尾，不跨区块误删
-          const reg = new RegExp(`^${title}\\n[\\s\\S]*?(?=^## |$)`, 'gm');
+          // 匹配标题、该标题下辖的所有内容，直到下个二级标题结束
+          const reg = new RegExp(`${title}[\\s\\S]*?(?=\\n## |$)`, 'g');
           md = md.replace(reg, '');
         })
         return md;
