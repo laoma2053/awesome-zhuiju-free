@@ -7,43 +7,31 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-    /* CSS永久屏蔽目标板块，不受JS时序、路由缓存影响 */
-    .content h2{
-      &:is(
-        [data-text="加入追剧社群"],
-        [data-text="怎么快速选择"],
-        [data-text="怎么看评分"],
-        [data-text="我们怎么维护"],
-        [data-text="如何参与"],
-        [data-text="项目原则"],
-        [data-text="免责声明"],
-        [data-text="Star History"]
-      ){
-        display:none;
-      }
-      /* 把标题后面跟随的全部兄弟元素一并隐藏 */
-      &:is(
-        :contains("加入追剧社群"),
-        :contains("怎么快速选择"),
-        :contains("怎么看评分"),
-        :contains("我们怎么维护"),
-        :contains("如何参与"),
-        :contains("项目原则"),
-        :contains("免责声明"),
-        :contains("Star History")
-      ),
-      &:is(
-        :contains("加入追剧社群"),
-        :contains("怎么快速选择"),
-        :contains("怎么看评分"),
-        :contains("我们怎么维护"),
-        :contains("如何参与"),
-        :contains("项目原则"),
-        :contains("免责声明"),
-        :contains("Star History")
-      ) ~ *{
-        display: none !important;
-      }
+    /*只用CSS静态隐藏不需要的大板块，绝不遍历表格DOM破坏表格结构*/
+    .content h2 {
+      margin-top: 24px;
+    }
+    .content h2:where(
+      :nth-child(n+1 of :has-text("加入追剧社群")),
+      :has-text("怎么快速选择"),
+      :has-text("怎么看评分"),
+      :has-text("我们怎么维护"),
+      :has-text("如何参与"),
+      :has-text("项目原则"),
+      :has-text("免责声明"),
+      :has-text("Star History")
+    ),
+    .content h2:where(
+      :has-text("加入追剧社群"),
+      :has-text("怎么快速选择"),
+      :has-text("怎么看评分"),
+      :has-text("我们怎么维护"),
+      :has-text("如何参与"),
+      :has-text("项目原则"),
+      :has-text("免责声明"),
+      :has-text("Star History")
+    ) ~ * {
+      display: none !important;
     }
   </style>
 </head>
@@ -57,30 +45,7 @@
       themeable: { defaultTheme: 'dark' },
       homepage: "README.md"
     }
-    // 每次路由渲染完成，兜底做DOM删除，适配Docsify单页路由切换
-    const hideTitles = new Set([
-      "加入追剧社群","怎么快速选择","怎么看评分",
-      "我们怎么维护","如何参与","项目原则","免责声明","Star History"
-    ])
-    window.$docsify.plugins = [
-      (hook)=>{
-        hook.afterEach(html => {
-          const tempDom = document.createElement('div');
-          tempDom.innerHTML = html;
-          tempDom.querySelectorAll('h2').forEach(h2=>{
-            if(hideTitles.has(h2.textContent.trim())){
-              let node = h2;
-              while(node){
-                const next = node.nextElementSibling;
-                node.remove();
-                node = next;
-              }
-            }
-          })
-          return tempDom.innerHTML;
-        })
-      }
-    ]
+    // 完全删掉之前会篡改表格内部文本的插件afterEach DOM遍历代码
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
