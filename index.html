@@ -10,29 +10,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-    /* 修复主题伪元素表头文字泄漏 */
-    .content table td::before,
-    .content table td::after{
-      content: unset !important;
-    }
-    /* CSS兜底：仅主页屏蔽目标区块，JS失效时视觉也会隐藏 */
-    [data-page="README"] section:has(h2){
-      display:block;
-    }
+    .content table td::before,.content table td::after{content: unset !important;}
   </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     const hideSectionTitles = [
-      "## 加入追剧社群",
-      "## 怎么快速选择",
-      "## 怎么看评分",
-      "## 我们怎么维护",
-      "## 如何参与",
-      "## 项目原则",
-      "## 免责声明",
-      "## Star History"
+      "## 加入追剧社群","## 怎么快速选择","## 怎么看评分",
+      "## 我们怎么维护","## 如何参与","## 项目原则","## 免责声明","## Star History"
     ];
     window.$docsify = {
       name: '免费追剧资源',
@@ -41,21 +27,16 @@
       themeable: { defaultTheme: 'dark' },
       homepage: "README.md",
       plugins: [
-        function (hook, vm) {
-          hook.beforeEach(function (markdown, next) {
-            // 子页面直接放行不做修改
-            if (vm.route.file !== 'README.md') {
+          function (hook, vm) {
+            hook.beforeEach(function (markdown, next) {
+              if (vm.route.file !== 'README.md') { next(markdown); return; }
+              hideSectionTitles.forEach(title => {
+                const reg = new RegExp(`${title}\\n[\\s\\S]*?(?=\\n## |$)`, 'g');
+                markdown = markdown.replace(reg, '');
+              })
               next(markdown);
-              return;
-            }
-            hideSectionTitles.forEach(title => {
-              // 放宽匹配：兼容标题前任意空白字符，不再强制锁死行开头
-              const reg = new RegExp(`[\\s\\S]*?${title}[\\s\\S]*?(?=\\n## |$)`, 'g');
-              markdown = markdown.replace(reg, '');
             })
-            next(markdown);
-          })
-        }
+          }
       ]
     }
   </script>
