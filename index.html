@@ -10,9 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
-    /* 修复表格伪元素多出文字 */
     .content table td::before,.content table td::after{content: unset !important;}
-    /* 右上角GitHub按钮 */
+    /* 右上角GitHub链接样式 */
     .github-top-link{
       position: fixed;
       top:14px;
@@ -26,18 +25,10 @@
       color:#81a1c1;
       text-decoration: underline;
     }
-    /* 仅主页隐藏顶部横幅：用class匹配兜底，不用高兼容风险伪类 */
-    [data-page="README"] .content h1,
-    [data-page="README"] .content p:first-of-type,
-    [data-page="README"] .content .badges,
-    [data-page="README"] .content > a[href*="浏览精选资源"]{
-      display:none;
-    }
-    /* 屏蔽指定8个板块 */
-    [data-page="README"] h2:nth-child(-n+5){display:none;}
   </style>
 </head>
 <body>
+  <!-- 右上角仓库跳转入口，替换成你的仓库地址 -->
   <a class="github-top-link" target="_blank" href="https://github.com/hzxs163/awesome-zhuiju-free">打开GitHub项目</a>
   <div id="app"></div>
   <script>
@@ -65,7 +56,7 @@
       ]
     }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 </body>
 </html>
