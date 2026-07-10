@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
+    /* 修复表格伪元素多出文字 */
     .content table td::before,.content table td::after{content: unset !important;}
+    /* 右上角GitHub按钮 */
     .github-top-link{
       position: fixed;
       top:14px;
@@ -24,10 +26,15 @@
       color:#81a1c1;
       text-decoration: underline;
     }
-    /* CSS隐藏首页顶部横幅：精选资源之前的全部内容，不会改动源码文本、不会清空页面正文 */
-    [data-page="README"] .content > :not(h2#精选资源, h2#精选资源 ~ *) {
-      display: none;
+    /* 仅主页隐藏顶部横幅：用class匹配兜底，不用高兼容风险伪类 */
+    [data-page="README"] .content h1,
+    [data-page="README"] .content p:first-of-type,
+    [data-page="README"] .content .badges,
+    [data-page="README"] .content > a[href*="浏览精选资源"]{
+      display:none;
     }
+    /* 屏蔽指定8个板块 */
+    [data-page="README"] h2:nth-child(-n+5){display:none;}
   </style>
 </head>
 <body>
@@ -48,7 +55,6 @@
           function (hook, vm) {
             hook.beforeEach(function (markdown, next) {
               if (vm.route.file !== 'README.md') { next(markdown); return; }
-              // 仅保留8个指定二级板块的文本剔除逻辑，删掉风险极高的头部全文正则裁剪
               hideSectionTitles.forEach(title => {
                 const reg = new RegExp(`${title}\\n[\\s\\S]*?(?=\\n## |$)`, 'g');
                 markdown = markdown.replace(reg, '');
