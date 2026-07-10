@@ -24,6 +24,10 @@
       color:#81a1c1;
       text-decoration: underline;
     }
+    /* CSS隐藏首页顶部横幅：精选资源之前的全部内容，不会改动源码文本、不会清空页面正文 */
+    [data-page="README"] .content > :not(h2#精选资源, h2#精选资源 ~ *) {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -44,9 +48,7 @@
           function (hook, vm) {
             hook.beforeEach(function (markdown, next) {
               if (vm.route.file !== 'README.md') { next(markdown); return; }
-              // 新增：裁剪顶部横幅，直到「## 精选资源」标题前的全部头部内容
-              markdown = markdown.replace(/^[\s\S]*?(?=## 精选资源)/, '');
-              // 原有指定二级板块剔除逻辑不变
+              // 仅保留8个指定二级板块的文本剔除逻辑，删掉风险极高的头部全文正则裁剪
               hideSectionTitles.forEach(title => {
                 const reg = new RegExp(`${title}\\n[\\s\\S]*?(?=\\n## |$)`, 'g');
                 markdown = markdown.replace(reg, '');
