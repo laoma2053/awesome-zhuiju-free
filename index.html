@@ -11,9 +11,25 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
     .content table td::before,.content table td::after{content: unset !important;}
+    /* 右上角GitHub链接样式 */
+    .github-top-link{
+      position: fixed;
+      top:14px;
+      right:22px;
+      z-index: 999;
+      color:#88c0d0;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .github-top-link:hover{
+      color:#81a1c1;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <!-- 右上角仓库跳转入口，替换成你的仓库地址 -->
+  <a class="github-top-link" target="_blank" href="https://github.com/hzxs163/awesome-zhuiju-free">打开GitHub项目</a>
   <div id="app"></div>
   <script>
     const hideSectionTitles = [
