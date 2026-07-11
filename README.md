@@ -386,7 +386,7 @@
       <td nowrap><a href="https://www.btbtla.com" target="_blank" rel="noopener noreferrer">BT影视</a></td>
       <td nowrap>4k高清电影BT下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:bt-yingshi -->🔴&#8288;无法&#8288;访问<!-- /availability:bt-yingshi --></td>
+      <td align="center" nowrap><!-- availability:bt-yingshi -->🟢&#8288;可&#8288;访问<!-- /availability:bt-yingshi --></td>
       <td align="center" nowrap><!-- availability-date:bt-yingshi -->2026&#8209;07&#8209;12<!-- /availability-date:bt-yingshi --></td>
     </tr>
     <tr>
