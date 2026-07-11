@@ -665,31 +665,25 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 ## 加入追剧社群
 
-想交流资源、反馈失效或获取更新，可以加入 QQ 群或腾讯频道。
+想交流资源、反馈失效或获取更新，可以加入 TG 群组。
 
 <table width="100%">
   <thead>
     <tr>
-      <th width="50%" nowrap>QQ群聊</th>
-      <th width="50%" nowrap>腾讯频道</th>
+      <th nowrap>TG 群组</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://qm.qq.com/q/UKw1seyvyU"><img src="resources/images/qq-group-3.jpg" alt="追剧吧 QQ 群二维码" width="260"></a>
-      </td>
-      <td align="center">
-        <a href="https://pd.qq.com/s/f4n1fpc6h"><img src="resources/images/tencent-channel.jpg" alt="腾讯频道二维码" width="260"></a>
+        <a href="https://t.me/zhuijume"><img src="resources/images/tg-zhuijume.jpg" alt="追剧 TG 群组二维码" width="260"></a>
       </td>
     </tr>
     <tr>
-      <td align="center" nowrap><strong>群号：995056182</strong></td>
-      <td align="center" nowrap><strong>频道号：pd41891326</strong></td>
+      <td align="center" nowrap><strong>Telegram：@zhuijume</strong></td>
     </tr>
     <tr>
-      <td align="center" nowrap><a href="https://qm.qq.com/q/UKw1seyvyU">加入 QQ 群聊</a></td>
-      <td align="center" nowrap><a href="https://pd.qq.com/s/f4n1fpc6h">进入腾讯频道</a></td>
+      <td align="center" nowrap><a href="https://t.me/zhuijume">加入 TG 群组</a></td>
     </tr>
   </tbody>
 </table>
