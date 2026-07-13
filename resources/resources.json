@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated_at": "2026-07-06",
+  "updated_at": "2026-07-13",
   "resources": [
     {
       "id": "no-video",
@@ -2042,8 +2042,8 @@
       "featured_order": 1,
       "github": {
         "full_name": "mtvpls/MoonTVPlus",
-        "stars": 2649,
-        "pushed_at": "2026-07-06T01:53:26Z"
+        "stars": 2696,
+        "pushed_at": "2026-07-11T02:07:50Z"
       }
     },
     {
@@ -2086,7 +2086,7 @@
       "featured_order": 2,
       "github": {
         "full_name": "Hiram-Wong/zyfun",
-        "stars": 8614,
+        "stars": 8643,
         "pushed_at": "2026-06-25T14:11:54Z"
       }
     },
@@ -2130,8 +2130,8 @@
       "featured_order": 3,
       "github": {
         "full_name": "Guovin/iptv-api",
-        "stars": 24475,
-        "pushed_at": "2026-07-06T02:46:27Z"
+        "stars": 24591,
+        "pushed_at": "2026-07-10T09:56:43Z"
       }
     },
     {
@@ -2174,8 +2174,8 @@
       "featured_order": 4,
       "github": {
         "full_name": "iptv-org/iptv",
-        "stars": 130615,
-        "pushed_at": "2026-07-06T00:33:09Z"
+        "stars": 132647,
+        "pushed_at": "2026-07-13T01:29:27Z"
       }
     },
     {
@@ -2218,7 +2218,7 @@
       "featured_order": 5,
       "github": {
         "full_name": "fish2018/pansou",
-        "stars": 13758,
+        "stars": 13835,
         "pushed_at": "2026-06-14T14:06:26Z"
       }
     },
@@ -2262,7 +2262,7 @@
       "featured_order": 6,
       "github": {
         "full_name": "jiangrui1994/CloudSaver",
-        "stars": 9044,
+        "stars": 9062,
         "pushed_at": "2026-04-20T03:28:29Z"
       }
     },
@@ -2306,8 +2306,8 @@
       "featured_order": 7,
       "github": {
         "full_name": "Cp0204/quark-auto-save",
-        "stars": 2904,
-        "pushed_at": "2026-05-14T12:32:13Z"
+        "stars": 2920,
+        "pushed_at": "2026-07-09T11:44:49Z"
       }
     }
   ]
