@@ -1,7 +1,7 @@
-name: 自动同步上游原仓库
+name: 仅同步指定3个上游文件
 on:
   schedule:
-    # UTC 17点=北京时间凌晨1点，每日执行一次同步
+    # UTC 17点=北京时间凌晨1点每日执行
     - cron: '0 17 * * *'
   workflow_dispatch:
 
@@ -9,28 +9,26 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: 拉取Fork仓库代码
+      - name: 拉取本仓库代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 配置Git
+      - name: 配置Git并绑定上游
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote add upstream https://github.com/laoma2053/awesome-zhuiju-free.git
 
-      - name: 拉取并合并上游
+      - name: 拉取上游代码，只覆盖指定3个文件
         run: |
-          git fetch upstream
-          git checkout main
-          git merge upstream/main --no-edit
-          # 删除合并产生的所有workflows变更，强制恢复本地原有脚本
-          git checkout HEAD -- .github/workflows/
-          # 把workflows目录的变更从提交里清除
-          git reset HEAD .github/workflows/
-          git checkout -- .github/workflows/
-          git add .
+          git fetch upstream main
+          # 只拿上游这3个文件，其余文件完全不动
+          git checkout upstream/main -- README.md
+          git checkout upstream/main -- resources/resources.json
+          git checkout upstream/main -- reports/availability.json
+          # 仅把这3个文件加入提交
+          git add README.md resources/resources.json reports/availability.json
 
-      - name: 推送代码
+      - name: 推送更新到自己仓库
         run: git push https://${{ github.token }}@github.com/hzxs163/awesome-zhuiju-free.git HEAD:main
