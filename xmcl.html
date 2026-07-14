@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+    <meta name="theme-color" content="#0e1117">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="熊猫磁力地址发布页">
+    <title>熊猫磁力最新地址发布页</title>
+    <meta name="key" content="gTNuITOx4SOyEjLzgTMt8UQNdkTPlEWtEjd">
+    <meta name="keywords" content="熊猫磁力, 磁力链接, 地址发布">
+    <meta name="description" content="熊猫磁力最新可用地址，自动获取，一键复制">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #0e1117;
+            color: #e6edf5;
+            padding: 24px 16px 40px;
+            min-height: 100vh;
+            transition: background 0.2s, color 0.2s;
+        }
+        body:not(.dark-mode) {
+            background: #f5f0eb;
+            color: #2c1810;
+        }
+        #main {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 12px 0;
+        }
+        .brand {
+            font-size: 2rem;
+            font-weight: 700;
+            padding: 16px 0 10px;
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            flex-wrap: wrap;
+            color: #d4a574;
+        }
+        body:not(.dark-mode) .brand {
+            color: #8b5a2b;
+        }
+        .brand .flag {
+            font-size: 1rem;
+            font-weight: 400;
+            opacity: 0.6;
+            background: rgba(255,255,255,0.06);
+            padding: 0 14px;
+            border-radius: 30px;
+            line-height: 1.8;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .brand .flag {
+            background: rgba(139, 90, 43, 0.08);
+            color: #8b5a2b;
+        }
+        .field {
+            background: rgba(255,255,255,0.04);
+            border-radius: 20px;
+            padding: 18px 18px 8px;
+            margin-top: 24px;
+            border: 1px solid rgba(255,255,255,0.04);
+            transition: all 0.25s;
+        }
+        body:not(.dark-mode) .field {
+            background: #ffffff;
+            border-color: #e8ddd0;
+            box-shadow: 0 4px 20px rgba(139, 90, 43, 0.06);
+        }
+        .field .title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #d4a574;
+        }
+        body:not(.dark-mode) .field .title {
+            border-bottom-color: #f0e8df;
+            color: #8b5a2b;
+        }
+        .enter-maomi {
+            display: flex;
+            align-items: center;
+            gap: 8px 12px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.03);
+            transition: background 0.2s;
+            flex-wrap: wrap;
+        }
+        body:not(.dark-mode) .enter-maomi {
+            background: #faf8f5;
+            border: 1px solid #f0e8df;
+        }
+        .enter-maomi:hover {
+            background: rgba(255,255,255,0.07);
+        }
+        body:not(.dark-mode) .enter-maomi:hover {
+            background: #f5ede4;
+            border-color: #dccfc0;
+        }
+        .enter-icon .icon {
+            width: 28px;
+            height: 28px;
+            display: inline-block;
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.7;
+        }
+        body:not(.dark-mode) .enter-icon .icon {
+            opacity: 0.8;
+            filter: sepia(0.3);
+        }
+        .icon_chain { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>') center/contain no-repeat; }
+        .icon_arrow { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>') center/contain no-repeat; }
+        .icon_star { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>') center/contain no-repeat; }
+        .icon_globe { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>') center/contain no-repeat; }
+        .icon_rocket { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s-6 4-6 10c0 4 2 6 6 8 4-2 6-4 6-8 0-6-6-10-6-10z"/><circle cx="12" cy="12" r="3"/></svg>') center/contain no-repeat; }
+
+        .enter-ping {
+            font-size: 0.8rem;
+            opacity: 0.5;
+            min-width: 50px;
+            text-align: right;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .enter-ping {
+            color: #b5957a;
+        }
+        .enter-link {
+            flex: 1;
+            min-width: 160px;
+        }
+        .enter-link a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .enter-link .link-title {
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: #d4a574;
+        }
+        body:not(.dark-mode) .enter-link .link-title {
+            color: #7a4a2a;
+        }
+        .enter-link .link-url {
+            font-size: 0.75rem;
+            opacity: 0.5;
+            word-break: break-all;
+            font-family: ui-monospace, monospace;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .enter-link .link-url {
+            color: #b5957a;
+        }
+        .enter-copy {
+            cursor: pointer;
+            background: rgba(255,255,255,0.06);
+            padding: 4px 14px;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            transition: 0.15s;
+            white-space: nowrap;
+            border: 1px solid rgba(255,255,255,0.04);
+            color: #d4a574;
+        }
+        .enter-copy:hover {
+            background: rgba(255,255,255,0.12);
+            color: #e8c9a8;
+        }
+        body:not(.dark-mode) .enter-copy {
+            background: #f0e8df;
+            border-color: #e0d2c4;
+            color: #8b5a2b;
+        }
+        body:not(.dark-mode) .enter-copy:hover {
+            background: #e8dccc;
+            border-color: #cbb8a5;
+            color: #5a3a1a;
+        }
+        .field.desc ul {
+            list-style: none;
+            padding: 6px 0 12px;
+            line-height: 1.8;
+        }
+        .field.desc li {
+            padding: 4px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .field.desc li {
+            border-bottom-color: #f0e8df;
+            color: #7a5a3a;
+        }
+        .field.foot {
+            text-align: center;
+            opacity: 0.5;
+            font-size: 0.8rem;
+            border: none;
+            background: transparent;
+            padding: 30px 0 10px;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .field.foot {
+            color: #b5957a;
+        }
+        .dark-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: #1e2633;
+            color: #f0c27f;
+            border: 1px solid rgba(255,255,255,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: 0.2s;
+            z-index: 99;
+            backdrop-filter: blur(4px);
+        }
+        body:not(.dark-mode) .dark-toggle {
+            background: #e8ddd0;
+            color: #8b5a2b;
+            border-color: #dccfc0;
+            box-shadow: 0 8px 20px rgba(139, 90, 43, 0.12);
+        }
+        .dark-toggle:hover {
+            transform: scale(1.04);
+        }
+        .refresh-btn-wrap {
+            display: flex;
+            justify-content: center;
+            margin: 16px 0 4px;
+        }
+        .refresh-btn {
+            background: linear-gradient(135deg, #d4a574, #b8834a);
+            color: #2c1810;
+            border: none;
+            padding: 12px 36px;
+            border-radius: 60px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 6px 16px rgba(184, 131, 74, 0.25);
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .refresh-btn:hover:not(:disabled) {
+            transform: scale(1.02);
+            box-shadow: 0 10px 24px rgba(184, 131, 74, 0.35);
+            background: linear-gradient(135deg, #e0b888, #c8925a);
+        }
+        .refresh-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        body:not(.dark-mode) .refresh-btn {
+            background: linear-gradient(135deg, #d4a574, #b8834a);
+            color: #2c1810;
+            box-shadow: 0 6px 16px rgba(184, 131, 74, 0.2);
+        }
+        body:not(.dark-mode) .refresh-btn:hover:not(:disabled) {
+            background: linear-gradient(135deg, #e0b888, #c8925a);
+            box-shadow: 0 10px 24px rgba(184, 131, 74, 0.3);
+        }
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2.5px solid rgba(44, 24, 16, 0.2);
+            border-top: 2.5px solid #2c1810;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            display: inline-block;
+        }
+        body:not(.dark-mode) .spinner {
+            border: 2.5px solid rgba(44, 24, 16, 0.15);
+            border-top: 2.5px solid #2c1810;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        .status-text {
+            text-align: center;
+            font-size: 0.85rem;
+            opacity: 0.6;
+            padding: 10px 0 4px;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .status-text {
+            color: #b5957a;
+        }
+        .error-box {
+            background: rgba(200, 80, 50, 0.08);
+            border-left: 4px solid #c85032;
+            padding: 12px 18px;
+            border-radius: 12px;
+            margin: 16px 0 4px;
+            color: #d47a5a;
+        }
+        body:not(.dark-mode) .error-box {
+            background: rgba(200, 80, 50, 0.05);
+            color: #b85a3a;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px 10px;
+            opacity: 0.5;
+            color: #c9b09b;
+        }
+        body:not(.dark-mode) .empty-state {
+            color: #b5957a;
+        }
+        .field, .brand {
+            opacity: 0;
+            transform: translateY(16px);
+            transition: opacity 0.45s ease, transform 0.45s ease;
+        }
+        .field.visible, .brand.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        @media (max-width: 600px) {
+            .enter-maomi { flex-wrap: wrap; }
+            .enter-ping { min-width: 40px; }
+            .brand { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body class="template-serene dark-mode">
+    <script>
+        (function() {
+            try { if (localStorage.getItem('darkMode') === '0') { document.body.classList.remove('dark-mode'); } } catch(e) {}
+        })();
+    </script>
+
+    <div id="main">
+        <div class="brand" id="logo">
+            <span>🐼 熊猫磁力 · 地址发布</span>
+            <span class="flag">最新地址</span>
+        </div>
+
+        <div class="refresh-btn-wrap">
+            <button class="refresh-btn" id="refreshBtn">
+                <span class="btn-text">🔄 获取最新地址</span>
+                <span class="spinner" id="spinner" style="display:none;"></span>
+            </button>
+        </div>
+        <div class="status-text" id="statusText">点击按钮获取最新可用地址</div>
+        <div id="errorContainer"></div>
+
+        <div id="sectionsContainer"></div>
+
+        <div id="emptyState" class="empty-state" style="display:none;">
+            <div style="font-size:2.4rem; margin-bottom:10px;">📡</div>
+            <p>暂无地址数据，点击上方按钮获取</p>
+        </div>
+
+        <div class="field desc">
+            <h4 class="title">📌 使用指南</h4>
+            <ul>
+                <li>点击地址链接将在新标签页打开</li>
+                <li>点击「复制」可快速复制地址</li>
+                <li>请收藏本页，便于获取最新地址</li>
+                <li>若获取失败，请稍后重试或切换网络</li>
+            </ul>
+        </div>
+
+        <div class="field foot">
+            熊猫磁力 · 地址发布页 © 2026
+        </div>
+    </div>
+
+    <div class="dark-toggle" id="darkToggle" onclick="toggleDark()" title="切换明暗模式">☀️</div>
+
+    <script>
+        (function() {
+            const refreshBtn = document.getElementById('refreshBtn');
+            const spinner = document.getElementById('spinner');
+            const statusText = document.getElementById('statusText');
+            const errorContainer = document.getElementById('errorContainer');
+            const sectionsContainer = document.getElementById('sectionsContainer');
+            const emptyState = document.getElementById('emptyState');
+
+            function setLoading(loading) {
+                const btnText = refreshBtn.querySelector('.btn-text');
+                if (loading) {
+                    btnText.textContent = '⏳ 获取中 ...';
+                    spinner.style.display = 'inline-block';
+                    refreshBtn.disabled = true;
+                } else {
+                    btnText.textContent = '🔄 获取最新地址';
+                    spinner.style.display = 'none';
+                    refreshBtn.disabled = false;
+                }
+            }
+
+            function showError(msg) {
+                errorContainer.innerHTML = `<div class="error-box"><strong>⚠️ </strong> ${msg}</div>`;
+            }
+
+            function clearError() {
+                errorContainer.innerHTML = '';
+            }
+
+            function updateStatus(msg) {
+                statusText.textContent = msg;
+            }
+
+            window.copyUrl = function(url, btn) {
+                const copyText = btn.querySelector('.copy-text') || btn;
+                let fullUrl = url;
+                if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                    fullUrl = 'https://' + url;
+                }
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(fullUrl).then(() => {
+                        copyText.textContent = '✅ 已复制';
+                        setTimeout(() => { copyText.textContent = '复制'; }, 1500);
+                    }).catch(() => fallbackCopy(fullUrl, copyText));
+                } else {
+                    fallbackCopy(fullUrl, copyText);
+                }
+            };
+
+            function fallbackCopy(url, el) {
+                const ta = document.createElement('textarea');
+                ta.value = url;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                el.textContent = '✅ 已复制';
+                setTimeout(() => { el.textContent = '复制'; }, 1500);
+            }
+
+            function createDomainItem(domain, index, categoryName) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'enter-maomi';
+
+                const icons = ['icon_chain', 'icon_arrow', 'icon_star', 'icon_globe', 'icon_rocket'];
+                const randIcon = icons[Math.floor(Math.random() * icons.length)];
+                const pingMs = Math.floor(Math.random() * 180) + 20;
+
+                let fullUrl = domain;
+                if (!domain.startsWith('http://') && !domain.startsWith('https://')) {
+                    fullUrl = 'https://' + domain;
+                }
+
+                const cleanCategory = categoryName ? categoryName.replace(/[^\u4e00-\u9fa5a-zA-Z]/g, '') : '熊猫磁力';
+
+                wrapper.innerHTML = `
+                    <div class="enter-icon">
+                        <div class="icon ${randIcon}"></div>
+                    </div>
+                    <div class="enter-ping">
+                        <span>${pingMs} ms</span>
+                    </div>
+                    <div class="enter-link">
+                        <a href="${fullUrl}" target="_blank" rel="noopener">
+                            <span class="link-title">${cleanCategory} · 地址 ${index + 1}</span>
+                            <span class="link-url">${domain}</span>
+                        </a>
+                    </div>
+                    <div class="enter-copy" onclick="copyUrl('${domain}', this)" title="复制链接">
+                        <span class="copy-text">复制</span>
+                    </div>
+                `;
+                return wrapper;
+            }
+
+            function displayDomains(data) {
+                clearError();
+                sectionsContainer.innerHTML = '';
+                emptyState.style.display = 'none';
+
+                if (data.errno && data.errno !== 0) {
+                    showError(data.errmsg || 'API 返回错误');
+                    emptyState.style.display = 'block';
+                    updateStatus('❌ 获取失败');
+                    return;
+                }
+
+                let totalCount = 0;
+                let hasAnyData = false;
+
+                if (data.domains && Array.isArray(data.domains)) {
+                    data.domains.forEach((category, catIndex) => {
+                        if (category.domains && Array.isArray(category.domains) && category.domains.length > 0) {
+                            hasAnyData = true;
+                            const fieldDiv = document.createElement('div');
+                            fieldDiv.className = 'field';
+
+                            const title = document.createElement('h4');
+                            title.className = 'title';
+                            
+                            let icon = '🌐';
+                            const nameLower = (category.name || '').toLowerCase();
+                            if (nameLower.includes('最新')) icon = '🟢';
+                            else if (nameLower.includes('备用')) icon = '🟡';
+                            
+                            const descText = category.desc ? ` · ${category.desc}` : '';
+                            title.innerHTML = `${icon} ${category.name || '地址'} <span style="font-weight:400;font-size:0.75rem;opacity:0.5;">${descText}</span>`;
+                            fieldDiv.appendChild(title);
+
+                            category.domains.forEach((domain, idx) => {
+                                const item = createDomainItem(domain, totalCount + idx, category.name);
+                                fieldDiv.appendChild(item);
+                            });
+
+                            totalCount += category.domains.length;
+                            sectionsContainer.appendChild(fieldDiv);
+                            
+                            setTimeout(() => {
+                                fieldDiv.classList.add('visible');
+                            }, 100 + catIndex * 80);
+                        }
+                    });
+                }
+
+                if (!hasAnyData || totalCount === 0) {
+                    emptyState.style.display = 'block';
+                    updateStatus('未获取到有效地址数据');
+                    return;
+                }
+
+                updateStatus(`✅ 更新成功 · ${new Date().toLocaleTimeString()} · 共 ${totalCount} 个地址`);
+            }
+
+            // ----- API 请求 -----
+            const API_ENDPOINTS = ['us.lessapi.com', 'us.lessapi.net', 'us.lessapi.org'];
+
+            function getApiKey() {
+                const meta = document.querySelector('meta[name="key"]');
+                return meta ? meta.getAttribute('content') : 'gTNuITOx4SOyEjLzgTMt8UQNdkTPlEWtEjd';
+            }
+
+            async function fetchFromAPI(url, timeout = 8000) {
+                const controller = new AbortController();
+                const timer = setTimeout(() => controller.abort(), timeout);
+                try {
+                    const resp = await fetch(url, { 
+                        signal: controller.signal, 
+                        headers: { 'Accept': 'application/json' } 
+                    });
+                    clearTimeout(timer);
+                    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                    const json = await resp.json();
+                    return json;
+                } catch (e) {
+                    clearTimeout(timer);
+                    throw e;
+                }
+            }
+
+            async function fetchDomains() {
+                setLoading(true);
+                clearError();
+                let lastError = null;
+                const key = getApiKey();
+
+                for (let i = 0; i < API_ENDPOINTS.length; i++) {
+                    const endpoint = API_ENDPOINTS[i];
+                    try {
+                        const url = `https://${endpoint}/pa/domain/current/${key}`;
+                        const data = await fetchFromAPI(url);
+                        displayDomains(data);
+                        setLoading(false);
+                        return;
+                    } catch (err) {
+                        lastError = err;
+                        console.warn(`API ${i+1} 失败:`, err.message);
+                    }
+                }
+
+                const msg = `所有API请求失败，请稍后重试。 最后错误: ${lastError?.message || '未知错误'}`;
+                showError(msg);
+                updateStatus(`❌ 获取失败 (尝试 ${API_ENDPOINTS.length} 个节点)`);
+                setLoading(false);
+                sectionsContainer.innerHTML = '';
+                emptyState.style.display = 'block';
+            }
+
+            refreshBtn.addEventListener('click', fetchDomains);
+
+            updateStatus('⏳ 正在获取最新地址...');
+            fetchDomains().catch(() => {});
+
+            setTimeout(() => {
+                document.querySelector('.brand')?.classList.add('visible');
+            }, 50);
+
+            window.toggleDark = function() {
+                const body = document.body;
+                const btn = document.getElementById('darkToggle');
+                body.classList.toggle('dark-mode');
+                const isDark = body.classList.contains('dark-mode');
+                btn.textContent = isDark ? '☀️' : '🌙';
+                try { localStorage.setItem('darkMode', isDark ? '1' : '0'); } catch(e) {}
+            };
+            (function() {
+                const btn = document.getElementById('darkToggle');
+                if (btn) btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+            })();
+
+        })();
+    </script>
+
+    <script type="text/javascript">
+        var _Hasync = _Hasync || [];
+        _Hasync.push(['Histats.start', '1,4961345,4,0,0,0,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://s10.histats.com/js15_as.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+        })();
+    </script>
+    <noscript>
+        <a href="/" target="_blank"><img src="https://sstatic1.histats.com/0.gif?4961345&101" alt="stats" border="0"></a>
+    </noscript>
+</body>
+</html>
