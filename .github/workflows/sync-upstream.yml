@@ -15,21 +15,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 配置Git信息
+      - name: 配置Git信息 + 忽略workflows目录
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           # 绑定上游官方仓库地址
           git remote add upstream https://github.com/laoma2053/awesome-zhuiju-free.git
+          # 全局忽略workflows目录，合并上游时完全不处理这个文件夹
+          echo ".github/workflows/" >> .git/info/exclude
 
       - name: 拉取上游main分支、合并代码
         run: |
           git fetch upstream
           git checkout main
           git merge upstream/main --no-edit
-          # 关键修复：强制保留本地workflows，不接受上游对yml的修改，绕过权限限制
-          git checkout HEAD -- .github/workflows/
-          git add .github/workflows/
 
       - name: 推送合并后的代码到自己仓库main分支
         run: git push https://${{ github.token }}@github.com/hzxs163/awesome-zhuiju-free.git HEAD:main
