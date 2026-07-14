@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-nord-dark.css">
   <style>
+    /* 修复表格单元格多出表头文字bug */
     .content table td::before,.content table td::after{content: unset !important;}
-    /* 右上角GitHub链接样式 */
+    /* 右上角GitHub固定链接 */
     .github-top-link{
       position: fixed;
       top:14px;
@@ -25,35 +26,29 @@
       color:#81a1c1;
       text-decoration: underline;
     }
+    /* 仅首页视觉隐藏指定无用板块，不删除源码文本，上游更新内容完整保留 */
+    [data-page="README"] h2:is(#加入追剧社群,#怎么快速选择,#怎么看评分,#我们怎么维护,#如何参与,#项目原则,#免责声明,#Star History) {
+      display: none !important;
+    }
+    /* 隐藏页面顶部标题、标语、徽章栏，不影响下方资源表格 */
+    [data-page="README"] .content > h1,
+    [data-page="README"] .content > p:first-of-type {
+      display: none !important;
+    }
   </style>
 </head>
 <body>
-  <!-- 右上角仓库跳转入口，替换成你的仓库地址 -->
+  <!-- 右上角仓库跳转入口 -->
   <a class="github-top-link" target="_blank" href="https://github.com/hzxs163/awesome-zhuiju-free">打开GitHub项目</a>
   <div id="app"></div>
   <script>
-    const hideSectionTitles = [
-      "## 加入追剧社群","## 怎么快速选择","## 怎么看评分",
-      "## 我们怎么维护","## 如何参与","## 项目原则","## 免责声明","## Star History"
-    ];
     window.$docsify = {
       name: '免费追剧资源',
       repo: '',
       loadSidebar: true,
       themeable: { defaultTheme: 'dark' },
-      homepage: "README.md",
-      plugins: [
-          function (hook, vm) {
-            hook.beforeEach(function (markdown, next) {
-              if (vm.route.file !== 'README.md') { next(markdown); return; }
-              hideSectionTitles.forEach(title => {
-                const reg = new RegExp(`${title}\\n[\\s\\S]*?(?=\\n## |$)`, 'g');
-                markdown = markdown.replace(reg, '');
-              })
-              next(markdown);
-            })
-          }
-      ]
+      homepage: "README.md"
+      /* 完全移除beforeEach文本裁剪插件，杜绝误删上游新增表格 */
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
