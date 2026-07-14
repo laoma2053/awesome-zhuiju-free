@@ -4,23 +4,40 @@
 
 ### 追剧不踩坑，资源有人测
 
-免费无广告的追剧资源导航与影视工具指南，收录无广告的在线影视、影视APP、网盘搜索、磁力与 BT、字幕、TVBox、影视仓配置地址、IPTV 订阅源和会员拼团信息，每日可用性检测，帮助追剧党快速找到可靠资源、减少踩坑。
+<p>🎬 在线影视 · 影视APP · 网盘搜索<br>
+📦 磁力 BT · 字幕 · TVBox/影视仓配置地址<br>
+🔍 人工精选，仅收录免费无广告资源<br>
+✅ 每日自动检测可用性，资源不是死列表<br>
+🔓 完全开源，社区共同维护</p>
 
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-59_个资源-0f766e?style=for-the-badge" alt="已收录 59 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-73_个资源-0f766e?style=for-the-badge" alt="已收录 73 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
 
-[![Validate data](https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/validate-data.yml/badge.svg)](https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/validate-data.yml)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub issues](https://img.shields.io/github/issues/laoma2053/awesome-zhuiju-free)](https://github.com/laoma2053/awesome-zhuiju-free/issues)
+<p align="center">
+  <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=for-the-badge&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://trendshift.io/repositories/79445"><img src="https://img.shields.io/badge/Trendshift-已收录-7c3aed?style=for-the-badge" alt="Trendshift"></a>
+  <a href="https://deepwiki.com/laoma2053/awesome-zhuiju-free"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+</p>
 
-**[浏览精选资源](#精选资源)** · **[推荐新资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)** · **[报告失效](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml)** · **[查看完整数据](resources/resources.json)** · **[贡献指南](CONTRIBUTING.md)**
+**[浏览精选资源](#精选资源)** · **[订阅每周更新](https://github.com/laoma2053/awesome-zhuiju-free/releases)** · **[推荐新资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)** · **[报告失效](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml)** · **[贡献指南](CONTRIBUTING.md)**
+
+觉得有用？点个 ⭐ Star 支持一下，帮助更多追剧党发现这里。
 
 </div>
+
+---
+
+## 为什么选这个列表
+
+| | 广告 | 资源失效 | 是否开源 | 参与贡献 |
+|---|:---:|:---:|:---:|:---:|
+| 普通导航站 | ❌ 有 | ❌ 无人管 | ❌ 否 | ❌ 不行 |
+| 本项目 | ✅ 无，纯净追剧 | ✅ 每日自动检测 | ✅ 是，数据公开 | ✅ Issue 直接提交 |
 
 ---
 
@@ -28,16 +45,16 @@
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-24-2563eb?style=flat-square" alt="在线影视"></a>
-  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-0-0f766e?style=flat-square" alt="影视APP"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-25-2563eb?style=flat-square" alt="在线影视"></a>
+  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-0f766e?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-64748b?style=flat-square" alt="网盘资源搜索"></a>
-  <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-4-7c3aed?style=flat-square" alt="磁力& BT"></a>
+  <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-9-7c3aed?style=flat-square" alt="磁力& BT"></a>
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
-  <a href="#tvbox播放器"><img src="https://img.shields.io/badge/TVbox播放器-1-059669?style=flat-square" alt="TVbox播放器"></a>
+  <a href="#tvbox影视仓空壳"><img src="https://img.shields.io/badge/TVBox%2F影视仓空壳-2-059669?style=flat-square" alt="TVBox/影视仓空壳"></a>
+  <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓接口-16-0891b2?style=flat-square" alt="TVBox/影视仓配置地址"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
-  <a href="#影视仓配置地址"><img src="https://img.shields.io/badge/影视仓配置-15-0891b2?style=flat-square" alt="影视仓配置地址"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
-  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-7-0f172a?style=flat-square" alt="开源项目"></a>
+  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-10-0f172a?style=flat-square" alt="开源项目"></a>
 </p>
 
 <details>
@@ -82,7 +99,7 @@
       <td nowrap><a href="https://www.appmovie.art" target="_blank" rel="noopener noreferrer">APP影院</a></td>
       <td nowrap>国内外热播剧，纯净无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:appmovie -->🟢&#8288;可&#8288;访问<!-- /availability:appmovie --></td>
+      <td align="center" nowrap><!-- availability:appmovie -->🟡&#8288;访问&#8288;受限<!-- /availability:appmovie --></td>
       <td align="center" nowrap><!-- availability-date:appmovie -->2026&#8209;07&#8209;13<!-- /availability-date:appmovie --></td>
     </tr>
     <tr>
@@ -184,18 +201,25 @@
       <td align="center" nowrap><!-- availability-date:gaze-red -->2026&#8209;07&#8209;13<!-- /availability-date:gaze-red --></td>
     </tr>
     <tr>
+      <td nowrap><a href="https://bubuzhuiju.com" target="_blank" rel="noopener noreferrer">布布追剧</a></td>
+      <td nowrap>速度快，有广告能接受</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:bubu-zhuiju -->🟢&#8288;可&#8288;访问<!-- /availability:bubu-zhuiju --></td>
+      <td align="center" nowrap><!-- availability-date:bubu-zhuiju -->2026&#8209;07&#8209;13<!-- /availability-date:bubu-zhuiju --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.ymck.pro" target="_blank" rel="noopener noreferrer">影猫仓库</a></td>
+      <td nowrap>热门影视剧，有广告能接受</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:yingmao-cangku -->🟡&#8288;访问&#8288;受限<!-- /availability:yingmao-cangku --></td>
+      <td align="center" nowrap><!-- availability-date:yingmao-cangku -->2026&#8209;07&#8209;13<!-- /availability-date:yingmao-cangku --></td>
+    </tr>
+    <tr>
       <td nowrap><a href="https://www.dbku.tv" target="_blank" rel="noopener noreferrer">独播库</a></td>
       <td nowrap>页面无广告，纯净</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:dbku -->🟢&#8288;可&#8288;访问<!-- /availability:dbku --></td>
       <td align="center" nowrap><!-- availability-date:dbku -->2026&#8209;07&#8209;13<!-- /availability-date:dbku --></td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://www.hainatv.net" target="_blank" rel="noopener noreferrer">海纳TV</a></td>
-      <td nowrap>高清蓝光画质/实时更新</td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:haina-tv -->🟢&#8288;可&#8288;访问<!-- /availability:haina-tv --></td>
-      <td align="center" nowrap><!-- availability-date:haina-tv -->2026&#8209;07&#8209;13<!-- /availability-date:haina-tv --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://libviobd.com" target="_blank" rel="noopener noreferrer">LIBVIO</a></td>
@@ -205,7 +229,7 @@
       <td align="center" nowrap><!-- availability-date:libvio -->2026&#8209;07&#8209;13<!-- /availability-date:libvio --></td>
     </tr>
     <tr>
-      <td nowrap><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
+      <td nowrap><a href="https://novipnoad.org/" target="_blank" rel="noopener noreferrer">No影视</a></td>
       <td nowrap>海外影视剧资源聚合站（需梯子）</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:no-video -->🟡&#8288;访问&#8288;受限<!-- /availability:no-video --></td>
@@ -239,7 +263,40 @@
 
 ### 影视APP
 
-_等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>支持平台</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td nowrap><a href="https://b.zhuiju.me/archives/4/" target="_blank" rel="noopener noreferrer">SeleneTV</a></td>
+      <td nowrap>跨平台 MoonTV 客户端</td>
+      <td align="center" nowrap>Android、iOS、macOS、Windows</td>
+      <td align="center" nowrap><!-- availability:selenetv-app -->🟢&#8288;可&#8288;访问<!-- /availability:selenetv-app --></td>
+      <td align="center" nowrap><!-- availability-date:selenetv-app -->2026&#8209;07&#8209;13<!-- /availability-date:selenetv-app --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://kazumi.app/download" target="_blank" rel="noopener noreferrer">Kazumi</a></td>
+      <td nowrap>免费无广告/在线观看番剧</td>
+      <td align="center" nowrap>Android、iOS、Windows、macOS、HarmonyOS NEXT</td>
+      <td align="center" nowrap><!-- availability:kazumi -->🟢&#8288;可&#8288;访问<!-- /availability:kazumi --></td>
+      <td align="center" nowrap><!-- availability-date:kazumi -->2026&#8209;07&#8209;13<!-- /availability-date:kazumi --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://animeko.org/downloads/" target="_blank" rel="noopener noreferrer">Animeko</a></td>
+      <td nowrap>一站式在线弹幕追番平台</td>
+      <td align="center" nowrap>Android、Windows、macOS、Linux、iOS</td>
+      <td align="center" nowrap><!-- availability:animeko-app -->🟢&#8288;可&#8288;访问<!-- /availability:animeko-app --></td>
+      <td align="center" nowrap><!-- availability-date:animeko-app -->2026&#8209;07&#8209;13<!-- /availability-date:animeko-app --></td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
@@ -303,6 +360,20 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
   </thead>
   <tbody>
     <tr>
+      <td nowrap><a href="https://pomo.mom" target="_blank" rel="noopener noreferrer">4K原盘</a></td>
+      <td nowrap>4K原盘免费下载</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:4k-yuanpan -->🟢&#8288;可&#8288;访问<!-- /availability:4k-yuanpan --></td>
+      <td align="center" nowrap><!-- availability-date:4k-yuanpan -->2026&#8209;07&#8209;13<!-- /availability-date:4k-yuanpan --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.btsj6.com" target="_blank" rel="noopener noreferrer">BT世界网</a></td>
+      <td nowrap>高清电影美剧BT种子迅雷下载</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:btshijiewang -->🟢&#8288;可&#8288;访问<!-- /availability:btshijiewang --></td>
+      <td align="center" nowrap><!-- availability-date:btshijiewang -->2026&#8209;07&#8209;13<!-- /availability-date:btshijiewang --></td>
+    </tr>
+    <tr>
       <td nowrap><a href="https://clg56.top" target="_blank" rel="noopener noreferrer">磁力狗</a></td>
       <td nowrap>干净好用的磁力资源搜索</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
@@ -329,6 +400,27 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:cilixiong -->🟢&#8288;可&#8288;访问<!-- /availability:cilixiong --></td>
       <td align="center" nowrap><!-- availability-date:cilixiong -->2026&#8209;07&#8209;13<!-- /availability-date:cilixiong --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.dyg22.com" target="_blank" rel="noopener noreferrer">电影港网</a></td>
+      <td nowrap>无水印4K高清BT种子资源</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:dianyinggang -->🟢&#8288;可&#8288;访问<!-- /availability:dianyinggang --></td>
+      <td align="center" nowrap><!-- availability-date:dianyinggang -->2026&#8209;07&#8209;13<!-- /availability-date:dianyinggang --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.mp4ba.vip" target="_blank" rel="noopener noreferrer">高清MP4</a></td>
+      <td nowrap>免费1080电影4K电影</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:gaoqing-mp4 -->🟡&#8288;访问&#8288;受限<!-- /availability:gaoqing-mp4 --></td>
+      <td align="center" nowrap><!-- availability-date:gaoqing-mp4 -->2026&#8209;07&#8209;13<!-- /availability-date:gaoqing-mp4 --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://hdzu.org" target="_blank" rel="noopener noreferrer">高清族</a></td>
+      <td nowrap>1080P电影下载,4K电影下载</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:gaoqingzu -->🟢&#8288;可&#8288;访问<!-- /availability:gaoqingzu --></td>
+      <td align="center" nowrap><!-- availability-date:gaoqingzu -->2026&#8209;07&#8209;13<!-- /availability-date:gaoqingzu --></td>
     </tr>
   </tbody>
 </table>
@@ -374,7 +466,7 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### TVbox播放器
+### TVBox/影视仓空壳
 
 <table width="100%">
   <thead>
@@ -394,37 +486,19 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability:kodi -->🟡&#8288;访问&#8288;受限<!-- /availability:kodi --></td>
       <td align="center" nowrap><!-- availability-date:kodi -->2026&#8209;07&#8209;13<!-- /availability-date:kodi --></td>
     </tr>
-  </tbody>
-</table>
-
-<p align="right"><a href="#精选资源">返回分类导航</a></p>
-
-### 订阅源
-
-<table width="100%">
-  <thead>
     <tr>
-      <th width="20%" nowrap>资源</th>
-      <th width="30%" nowrap>简介</th>
-      <th width="20%" nowrap>推荐指数</th>
-      <th width="15%" nowrap>状&#8288;态</th>
-      <th width="15%" nowrap>检测时间</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
-      <td nowrap>社区维护的公开 IPTV 频道集合</td>
+      <td nowrap><a href="https://tv.xn--yhqu5zs87a.top/" target="_blank" rel="noopener noreferrer">FongMi 影视</a></td>
+      <td nowrap>tvbox二开/带视频源，手机端/平板端已测试</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --></td>
-      <td align="center" nowrap><!-- availability-date:iptv-org -->2026&#8209;07&#8209;13<!-- /availability-date:iptv-org --></td>
+      <td align="center" nowrap><!-- availability:tv-xn-yhqu5zs87a-top-3 -->🟢&#8288;可&#8288;访问<!-- /availability:tv-xn-yhqu5zs87a-top-3 --></td>
+      <td align="center" nowrap><!-- availability-date:tv-xn-yhqu5zs87a-top-3 -->2026&#8209;07&#8209;13<!-- /availability-date:tv-xn-yhqu5zs87a-top-3 --></td>
     </tr>
   </tbody>
 </table>
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
-### 影视仓配置地址
+### TVBox/影视仓配置地址
 
 <table width="100%">
   <thead>
@@ -466,6 +540,13 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:fei-mao -->2026&#8209;07&#8209;13<!-- /availability-date:fei-mao --></td>
     </tr>
     <tr>
+      <td nowrap>潇洒</td>
+      <td><code>https:<wbr>/<wbr>/<wbr>cnb.<wbr>cool/<wbr>fish2018/<wbr>xs/<wbr>-<wbr>/<wbr><br>git/<wbr>raw/<wbr>main/<wbr>api.<wbr>json</code></td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:xiao-sa -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-sa --></td>
+      <td align="center" nowrap><!-- availability-date:xiao-sa -->2026&#8209;07&#8209;13<!-- /availability-date:xiao-sa --></td>
+    </tr>
+    <tr>
       <td nowrap>小盒子4K</td>
       <td><code>http:<wbr>/<wbr>/<wbr>xhztv.<wbr>top/<wbr>4k.<wbr>json</code></td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
@@ -480,17 +561,10 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:lao-liu-bei -->2026&#8209;07&#8209;13<!-- /availability-date:lao-liu-bei --></td>
     </tr>
     <tr>
-      <td nowrap>俊佬</td>
-      <td><code>http:<wbr>/<wbr>/<wbr>home.<wbr>jundie.<wbr>top:<wbr>81/<wbr>top98.<wbr>json</code></td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:jun-lao -->🔴&#8288;无法&#8288;访问<!-- /availability:jun-lao --></td>
-      <td align="center" nowrap><!-- availability-date:jun-lao -->2026&#8209;07&#8209;13<!-- /availability-date:jun-lao --></td>
-    </tr>
-    <tr>
       <td nowrap>小马</td>
       <td><code>https:<wbr>/<wbr>/<wbr>szyyds.<wbr>cn/<wbr>tv/<wbr>x.<wbr>json</code></td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:xiao-ma -->🔴&#8288;无法&#8288;访问<!-- /availability:xiao-ma --></td>
+      <td align="center" nowrap><!-- availability:xiao-ma -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-ma --></td>
       <td align="center" nowrap><!-- availability-date:xiao-ma -->2026&#8209;07&#8209;13<!-- /availability-date:xiao-ma --></td>
     </tr>
     <tr>
@@ -513,6 +587,13 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:ao-wu -->🟢&#8288;可&#8288;访问<!-- /availability:ao-wu --></td>
       <td align="center" nowrap><!-- availability-date:ao-wu -->2026&#8209;07&#8209;13<!-- /availability-date:ao-wu --></td>
+    </tr>
+    <tr>
+      <td nowrap>无名</td>
+      <td><code>https:<wbr>/<wbr>/<wbr>6800.<wbr>kstore.<wbr>vip/<wbr>fish.<wbr>json</code></td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:wu-ming -->🟢&#8288;可&#8288;访问<!-- /availability:wu-ming --></td>
+      <td align="center" nowrap><!-- availability-date:wu-ming -->2026&#8209;07&#8209;13<!-- /availability-date:wu-ming --></td>
     </tr>
     <tr>
       <td nowrap>小盒子多仓</td>
@@ -541,6 +622,31 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xiao-he-zi -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-he-zi --></td>
       <td align="center" nowrap><!-- availability-date:xiao-he-zi -->2026&#8209;07&#8209;13<!-- /availability-date:xiao-he-zi --></td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="right"><a href="#精选资源">返回分类导航</a></p>
+
+### 订阅源
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="20%" nowrap>资源</th>
+      <th width="30%" nowrap>简介</th>
+      <th width="20%" nowrap>推荐指数</th>
+      <th width="15%" nowrap>状&#8288;态</th>
+      <th width="15%" nowrap>检测时间</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">IPTV-org</a></td>
+      <td nowrap>社区维护的公开 IPTV 频道集合</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:iptv-org -->🟢&#8288;可&#8288;访问<!-- /availability:iptv-org --></td>
+      <td align="center" nowrap><!-- availability-date:iptv-org -->2026&#8209;07&#8209;13<!-- /availability-date:iptv-org --></td>
     </tr>
   </tbody>
 </table>
@@ -586,13 +692,13 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
     <tr>
       <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">iptv</a></td>
       <td nowrap>全球公开 IPTV 频道集合</td>
-      <td align="center" nowrap>132,647</td>
+      <td align="center" nowrap>132,645</td>
       <td align="center" nowrap>2026-07-13</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/fish2018/pansou" target="_blank" rel="noopener noreferrer">pansou</a></td>
       <td nowrap>高性能网盘资源搜索 API 服务</td>
-      <td align="center" nowrap>13,835</td>
+      <td align="center" nowrap>13,834</td>
       <td align="center" nowrap>2026-06-14</td>
     </tr>
     <tr>
@@ -607,6 +713,24 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>2,920</td>
       <td align="center" nowrap>2026-07-09</td>
     </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/open-ani/animeko" target="_blank" rel="noopener noreferrer">Animeko</a></td>
+      <td nowrap>一站式弹幕追番平台</td>
+      <td align="center" nowrap>18,840</td>
+      <td align="center" nowrap>2026-07-13</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/Predidit/Kazumi" target="_blank" rel="noopener noreferrer">Kazumi</a></td>
+      <td nowrap>免费无广告的番剧采集与在线观看</td>
+      <td align="center" nowrap>27,586</td>
+      <td align="center" nowrap>2026-07-13</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/MoonTechLab/Selene" target="_blank" rel="noopener noreferrer">SeleneTV</a></td>
+      <td nowrap>MoonTV v100/Helios 后端客户端</td>
+      <td align="center" nowrap>2,346</td>
+      <td align="center" nowrap>2026-05-25</td>
+    </tr>
   </tbody>
 </table>
 
@@ -615,31 +739,25 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 ## 加入追剧社群
 
-想交流资源、反馈失效或获取更新，可以加入 QQ 群或腾讯频道。
+想交流资源、反馈失效或获取更新，可以加入 TG 群组。
 
 <table width="100%">
   <thead>
     <tr>
-      <th width="50%" nowrap>QQ群聊</th>
-      <th width="50%" nowrap>腾讯频道</th>
+      <th nowrap>TG 群组</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://qm.qq.com/q/UKw1seyvyU"><img src="resources/images/qq-group-3.jpg" alt="追剧吧 QQ 群二维码" width="260"></a>
-      </td>
-      <td align="center">
-        <a href="https://pd.qq.com/s/f4n1fpc6h"><img src="resources/images/tencent-channel.jpg" alt="腾讯频道二维码" width="260"></a>
+        <a href="https://t.me/zhuijume"><img src="resources/images/tg-zhuijume.jpg" alt="追剧 TG 群组二维码" width="260"></a>
       </td>
     </tr>
     <tr>
-      <td align="center" nowrap><strong>群号：995056182</strong></td>
-      <td align="center" nowrap><strong>频道号：pd41891326</strong></td>
+      <td align="center" nowrap><strong>Telegram：@zhuijume</strong></td>
     </tr>
     <tr>
-      <td align="center" nowrap><a href="https://qm.qq.com/q/UKw1seyvyU">加入 QQ 群聊</a></td>
-      <td align="center" nowrap><a href="https://pd.qq.com/s/f4n1fpc6h">进入腾讯频道</a></td>
+      <td align="center" nowrap><a href="https://t.me/zhuijume">加入 TG 群组</a></td>
     </tr>
   </tbody>
 </table>
@@ -655,8 +773,8 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 | 找网盘分享 | 网盘资源搜索 | 想保存到网盘或找合集 | 分享链接有效期、诱导下载与版权风险 |
 | 找磁力入口 | 磁力& BT | 想找磁力、BT 或相关资源站 | 版权、链接安全与下载隐私风险 |
 | 找字幕 | 字幕资源 | 外语片、冷门片、版本匹配 | 字幕版本、上传来源与下载安全 |
-| 电视端播放 | TVbox播放器、订阅源 | 电视盒子、NAS、客厅播放 | 插件、订阅源与频道来源是否可信 |
-| 配置影视仓 | 影视仓配置地址 | 影视仓、TVBox 快速导入配置 | 配置来源、接口稳定性与安全风险 |
+| 电视端播放 | TVBox/影视仓空壳、订阅源 | 电视盒子、NAS、客厅播放 | 插件、订阅源与频道来源是否可信 |
+| 配置影视仓 | TVBox/影视仓配置地址 | 影视仓、TVBox 快速导入配置 | 配置来源、接口稳定性与安全风险 |
 | 省会员费用 | 会员拼团 | 正规会员合租或优惠信息 | 支付规则、账号归属和售后风险 |
 | 找开源工具 | 开源项目 | 自建、部署或二次开发影视工具 | 项目活跃度、维护情况和使用门槛 |
 
@@ -716,22 +834,28 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 如果你是权利人，认为某条收录不当，请通过 [权利人请求模板](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=rights-holder-request.yml) 联系。项目会公开记录请求与处理结果，但不会公开不必要的个人信息。
 
-## Star History
+## 友情链接
+
+- [LINUX DO](https://linux.do) —— 新的理想型社区，技术爱好者的聚集地。
+
+## 项目数据
 
 <a href="https://www.star-history.com/?repos=laoma2053%2Fawesome-zhuiju-free&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&theme=dark&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
  </picture>
 </a>
+
+![Repobeats](https://repobeats.axiom.co/api/embed/65ad4a689ab7989c03d2b13b0e1062a1018a76f9.svg "Repobeats 分析图像")
 
 ---
 
 <div align="center">
 
-**追剧不踩坑，资源有人测。**
+[推荐新资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml) · [报告失效](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml) · [贡献指南](CONTRIBUTING.md)
 
-[zhuiju.me](https://zhuiju.me) · [推荐资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml) · [报告问题](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 数据与内容 CC BY 4.0，代码 [MIT](LICENSE)
 
 </div>
