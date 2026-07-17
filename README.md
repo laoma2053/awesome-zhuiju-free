@@ -99,7 +99,7 @@
       <td nowrap><a href="https://www.appmovie.art" target="_blank" rel="noopener noreferrer">APP影院</a></td>
       <td nowrap>国内外热播剧，纯净无广告</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:appmovie -->🟡&#8288;访问&#8288;受限<!-- /availability:appmovie --></td>
+      <td align="center" nowrap><!-- availability:appmovie -->🟢&#8288;可&#8288;访问<!-- /availability:appmovie --></td>
       <td align="center" nowrap><!-- availability-date:appmovie -->2026&#8209;07&#8209;18<!-- /availability-date:appmovie --></td>
     </tr>
     <tr>
