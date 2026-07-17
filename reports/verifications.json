@@ -130,7 +130,6 @@
         "fei-mao",
         "lao-liu-bei",
         "xiao-ma",
-        "xiao-sa",
         "mo-yu-er",
         "wang-er-xiao",
         "xiao-he-zi-4k",
@@ -151,7 +150,7 @@
         "network": "user submitted"
       },
       "result": "pending_review",
-      "notes": "用户提交影视仓配置地址：饭太硬、肥猫、老刘备、小马、潇洒、摸鱼儿、王二小、小盒子4K、小盒子单仓、VOX、嗷呜、无名、小盒子多仓、拾光多仓、挺好分享多仓，以及 TV 工具箱“小盒子”。配置地址在 README 地址列以代码样式展示，方便用户复制；带官网的资源名保留超链接；后续由 GitHub Actions 自动检测可用性。"
+      "notes": "用户提交影视仓配置地址：饭太硬、肥猫、老刘备、小马、摸鱼儿、王二小、小盒子4K、小盒子单仓、VOX、嗷呜、无名、小盒子多仓、拾光多仓、挺好分享多仓，以及 TV 工具箱“小盒子”。配置地址在 README 地址列以代码样式展示，方便用户复制；带官网的资源名保留超链接；后续由 GitHub Actions 自动检测可用性。"
     },
     {
       "id": "verify-20260704-ciligou",

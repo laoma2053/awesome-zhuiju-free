@@ -1677,51 +1677,6 @@
       "featured_order": 5
     },
     {
-      "id": "xiao-sa",
-      "name": "潇洒",
-      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
-      "category": "tvbox_config",
-      "summary": "影视仓配置地址。",
-      "summary_short": "影视仓配置地址",
-      "tags": [
-        "影视仓",
-        "配置地址",
-        "TVBox"
-      ],
-      "access": {
-        "requires_login": false,
-        "free_level": "unknown",
-        "regions": [
-          "GLOBAL"
-        ]
-      },
-      "scores": {
-        "more": 5,
-        "speed": 5,
-        "clean": 5,
-        "stable": 5,
-        "ease": 5
-      },
-      "risks": {
-        "copyright": "high",
-        "safety": "medium",
-        "privacy": "unknown",
-        "payment": "unknown"
-      },
-      "verification": {
-        "status": "caution",
-        "last_checked": "2026-07-12",
-        "method": "manual",
-        "notes": "用户提交的影视仓配置地址，按 5 星收录；配置内容、接口稳定性、版权状态与安全风险需要用户自行判断，并由后续自动检测刷新可访问状态。"
-      },
-      "source": {
-        "submitted_by": "maintainer",
-        "added_at": "2026-07-12"
-      },
-      "featured": true,
-      "featured_order": 4
-    },
-    {
       "id": "mo-yu-er",
       "name": "摸鱼儿",
       "url": "http://摸鱼儿.cc",

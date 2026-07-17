@@ -417,17 +417,6 @@
       "error": "fetch failed"
     },
     {
-      "resource_id": "xiao-sa",
-      "url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
-      "status": "reachable",
-      "http_status": 200,
-      "final_url": "https://cnb.cool/fish2018/xs/-/git/raw/main/api.json",
-      "response_ms": 1068,
-      "checked_at": "2026-07-17T18:33:59.857Z",
-      "attempts": 1,
-      "error": null
-    },
-    {
       "resource_id": "mo-yu-er",
       "url": "http://摸鱼儿.cc",
       "status": "reachable",
