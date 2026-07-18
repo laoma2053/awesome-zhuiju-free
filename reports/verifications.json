@@ -409,6 +409,21 @@
       },
       "result": "pending_review",
       "notes": "根据用户补充收录在线影视资源：IFN（https://ifn.watch，推荐指数 5 星，简介：为数不多的真4K，无广告需登录）；提交状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与站点安全性。"
+    },
+    {
+      "id": "verify-20260718-ifn-url-summary-update",
+      "resource_ids": [
+        "ifn"
+      ],
+      "checked_at": "2026-07-18",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "user submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据用户补充将 IFN 访问地址更新为 https://ifn.watch/register?code=8B1EF6，简介改为为数不多的真4K，部分免费；后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与站点安全性。"
     }
   ]
 }

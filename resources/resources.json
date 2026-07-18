@@ -1288,19 +1288,18 @@
     {
       "id": "ifn",
       "name": "IFN",
-      "url": "https://ifn.watch",
+      "url": "https://ifn.watch/register?code=8B1EF6",
       "category": "online_video",
-      "summary": "为数不多的真4K，无广告需登录。",
-      "summary_short": "为数不多的真4K，无广告需登录",
+      "summary": "为数不多的真4K，部分免费。",
+      "summary_short": "为数不多的真4K，部分免费",
       "tags": [
         "在线影视",
         "4K",
-        "无广告",
-        "需登录"
+        "部分免费"
       ],
       "access": {
         "requires_login": true,
-        "free_level": "unknown",
+        "free_level": "partly_free",
         "regions": [
           "GLOBAL"
         ]
@@ -1322,7 +1321,7 @@
         "status": "caution",
         "last_checked": "2026-07-18",
         "method": "manual",
-        "notes": "根据用户补充收录：推荐指数 5 星，简介为为数不多的真4K，无广告需登录；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+        "notes": "根据用户补充将访问地址更新为 https://ifn.watch/register?code=8B1EF6，简介更新为为数不多的真4K，部分免费；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
       },
       "source": {
         "submitted_by": "maintainer",
