@@ -844,6 +844,17 @@
       "checked_at": "2026-08-02T04:04:47.967Z",
       "attempts": 1,
       "error": null
+    },
+    {
+      "resource_id": "fdzys",
+      "url": "https://fdzys.com",
+      "status": "restricted",
+      "http_status": 429,
+      "final_url": "https://fdzys.com/",
+      "response_ms": null,
+      "checked_at": "2026-08-08T15:37:02.029Z",
+      "attempts": 1,
+      "error": null
     }
   ]
 }

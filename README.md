@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-0A66C2?style=flat-square" alt="网站 zhuiju.me" height="24"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-91_个资源-00A98F?style=flat-square" alt="已收录 91 个资源" height="24"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-92_个资源-00A98F?style=flat-square" alt="已收录 92 个资源" height="24"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/检测时间-2026--08--02-00B4D8?style=flat-square" alt="检测时间 2026-08-02" height="24"></a>
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=flat-square&label=Stars&color=F7B801" alt="GitHub Stars" height="24"></a>
@@ -64,7 +64,7 @@
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-31-0A66C2?style=flat-square" alt="在线影视"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-32-0A66C2?style=flat-square" alt="在线影视"></a>
   <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-00A98F?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-4285F4?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-12-F7B801?style=flat-square" alt="磁力& BT"></a>
@@ -91,6 +91,7 @@
 
 | 资源 | 简介 | 推荐指数 | 状态 | 检测时间 |
 | --- | --- | :---: | :---: | :---: |
+| [饭搭子影视](<https://fdzys.com>) | 最新热门电影电视剧动漫综艺 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:fdzys -->🟡&#8288;访问&#8288;受限<!-- /availability:fdzys --> | <!-- availability-date:fdzys -->2026&#8209;08&#8209;08<!-- /availability-date:fdzys --> |
 | [爱看机器人](<https://www1.aikanbot.com>) | 全网热门的电影和电视剧榜单 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:aikanbot -->🟢&#8288;可&#8288;访问<!-- /availability:aikanbot --> | <!-- availability-date:aikanbot -->2026&#8209;08&#8209;02<!-- /availability-date:aikanbot --> |
 | [91毒舌](<https://www.duse0.com/>) | 最新Netflix新剧、4K高清（可访问） | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:duse91 -->🔴&#8288;无法&#8288;访问<!-- /availability:duse91 --> | <!-- availability-date:duse91 -->2026&#8209;08&#8209;02<!-- /availability-date:duse91 --> |
 | [好好看](<https://www.hhkan2.com/>) | 4K高清Netflix新剧（可访问需梯子） | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:haohaokan -->🔴&#8288;无法&#8288;访问<!-- /availability:haohaokan --> | <!-- availability-date:haohaokan -->2026&#8209;08&#8209;02<!-- /availability-date:haohaokan --> |

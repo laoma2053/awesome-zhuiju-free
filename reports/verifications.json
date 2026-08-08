@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-02",
+  "updated_at": "2026-08-08",
   "records": [
     {
       "id": "verify-20260606-initial",
@@ -454,6 +454,21 @@
       },
       "result": "pending_review",
       "notes": "根据用户补充收录磁力帝（https://www.cld123.com，推荐指数 5 星，简介：地址发布页cldi.top）；提交状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与链接安全性。"
+    },
+    {
+      "id": "verify-20260808-fdzys",
+      "resource_ids": [
+        "fdzys"
+      ],
+      "checked_at": "2026-08-08",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "user submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据用户补充收录在线影视资源：饭搭子影视（https://fdzys.com，推荐指数 5 星，简介：最新热门电影电视剧动漫综艺）；提交状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性，并持续观察版权状态与站点安全性。"
     }
   ]
 }
