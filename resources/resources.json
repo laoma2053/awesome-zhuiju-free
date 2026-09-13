@@ -451,8 +451,8 @@
       "name": "金牌影视",
       "url": "https://www.vv3nwjk.com",
       "category": "online_video",
-      "summary": "全网 VIP 资源。",
-      "summary_short": "全网VIP资源（需梯子）",
+      "summary": "全网VIP资源（可访问需梯子）",
+      "summary_short": "全网VIP资源（可访问需梯子）",
       "tags": [
         "在线影视",
         "VIP资源",
@@ -4944,8 +4944,8 @@
       "name": "歪比巴卜",
       "url": "https://wbbb1.com/",
       "category": "online_video",
-      "summary": "高清视频免费在线观看。",
-      "summary_short": "高清视频免费在线观看",
+      "summary": "高清视频免费在线观看（可访问）",
+      "summary_short": "高清视频免费在线观看（可访问）",
       "tags": [
         "在线影视",
         "高清",
@@ -5212,10 +5212,10 @@
     {
       "id": "103-39-111-180-29",
       "name": "可可影视",
-      "url": "https://103.39.111.180:51120/",
+      "url": "https://www.kkys14.com/",
       "category": "online_video",
-      "summary": "https://103.39.111.180:51120/，https://103.39.111.184:51120/，https://43.248.100.180:51120，https://43.248.100.69:51120",
-      "summary_short": "https://103.39.111.180:51120/，https://10",
+      "summary": "最新Netflix新剧_韩国电影",
+      "summary_short": "最新Netflix新剧_韩国电影",
       "tags": [
         "在线影视"
       ],
@@ -5227,11 +5227,11 @@
         ]
       },
       "scores": {
-        "more": 4,
-        "speed": 4,
-        "clean": 4,
-        "stable": 4,
-        "ease": 4
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -5256,8 +5256,8 @@
       "name": "樱之空",
       "url": "https://skr.skr1.cc:666/",
       "category": "online_video",
-      "summary": "免费观看各种动漫，国内外各种动漫都比较齐全，有多线路播放，无需登录付费",
-      "summary_short": "免费观看各种动漫，国内外各种动漫都比较齐全，有多线路播放，无需登录付费",
+      "summary": "国内外各种动漫都比较齐全",
+      "summary_short": "国内外各种动漫都比较齐全",
       "tags": [
         "在线影视"
       ],
