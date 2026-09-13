@@ -5250,6 +5250,48 @@
         "added_at": "2026-09-13"
       },
       "featured": true
+    },
+    {
+      "id": "skr-skr1-cc-9",
+      "name": "樱之空",
+      "url": "https://skr.skr1.cc:666/",
+      "category": "online_video",
+      "summary": "免费观看各种动漫，国内外各种动漫都比较齐全，有多线路播放，无需登录付费",
+      "summary_short": "免费观看各种动漫，国内外各种动漫都比较齐全，有多线路播放，无需登录付费",
+      "tags": [
+        "在线影视"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "维护者 @laoma2053 已通过 ok 确认收录。 测试信息：2026-07-18 ，中国大陆。 提交者风险说明：网站侧栏会出现广告横幅，不影响正常观看\n\n大多数视频资源无广告，少数动漫的特定线路的资源可能出现广告"
+      },
+      "source": {
+        "submitted_by": "@Honsyu-cn",
+        "added_at": "2026-09-13"
+      },
+      "featured": true
     }
   ]
 }
