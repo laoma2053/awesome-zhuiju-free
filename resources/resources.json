@@ -5208,6 +5208,48 @@
         "added_at": "2026-09-12"
       },
       "featured": true
+    },
+    {
+      "id": "103-39-111-180-29",
+      "name": "可可影视",
+      "url": "https://103.39.111.180:51120/",
+      "category": "online_video",
+      "summary": "https://103.39.111.180:51120/，https://103.39.111.184:51120/，https://43.248.100.180:51120，https://43.248.100.69:51120",
+      "summary_short": "https://103.39.111.180:51120/，https://10",
+      "tags": [
+        "在线影视"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-09-13",
+        "method": "manual",
+        "notes": "维护者 @laoma2053 已通过 ok 确认收录。 测试信息：2026-9-10，中国大陆。 提交者风险说明：部分视频有广"
+      },
+      "source": {
+        "submitted_by": "@goodsand",
+        "added_at": "2026-09-13"
+      },
+      "featured": true
     }
   ]
 }

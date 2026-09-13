@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-0A66C2?style=flat-square" alt="网站 zhuiju.me" height="24"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-114_个资源-00A98F?style=flat-square" alt="已收录 114 个资源" height="24"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-115_个资源-00A98F?style=flat-square" alt="已收录 115 个资源" height="24"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/检测时间-2026--09--13-00B4D8?style=flat-square" alt="检测时间 2026-09-13" height="24"></a>
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=flat-square&label=Stars&color=F7B801" alt="GitHub Stars" height="24"></a>
@@ -64,7 +64,7 @@
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-45-0A66C2?style=flat-square" alt="在线影视"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-46-0A66C2?style=flat-square" alt="在线影视"></a>
   <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-00A98F?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-4285F4?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-16-F7B801?style=flat-square" alt="磁力& BT"></a>
@@ -121,6 +121,7 @@
 | [金牌影视](<https://www.vv3nwjk.com>) | 全网VIP资源（需梯子） | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:jpyy -->🔴&#8288;无法&#8288;访问<!-- /availability:jpyy --> | <!-- availability-date:jpyy -->2026&#8209;09&#8209;13<!-- /availability-date:jpyy --> |
 | [937影视](<https://www.937tv.vip>) | 看全网影视剧（需梯子） | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:tv-937 -->🟡&#8288;访问&#8288;受限<!-- /availability:tv-937 --> | <!-- availability-date:tv-937 -->2026&#8209;09&#8209;13<!-- /availability-date:tv-937 --> |
 | [注视影视](<https://gaze.red/>) | 国内海外影视剧资源（需梯子） | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:gaze-red -->🟡&#8288;访问&#8288;受限<!-- /availability:gaze-red --> | <!-- availability-date:gaze-red -->2026&#8209;09&#8209;13<!-- /availability-date:gaze-red --> |
+| [可可影视](<https://103.39.111.180:51120/>) | https://103.39.111.180:51120/，https://10 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:103-39-111-180-29 -->🟢&#8288;可&#8288;访问<!-- /availability:103-39-111-180-29 --> | <!-- availability-date:103-39-111-180-29 -->2026&#8209;09&#8209;13<!-- /availability-date:103-39-111-180-29 --> |
 | [爱盼](<https://www.aipan.me/>) | 4K夸克网盘/光鸭云盘/磁力影视资源聚合站 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:aipan-me-25 -->🟢&#8288;可&#8288;访问<!-- /availability:aipan-me-25 --> | <!-- availability-date:aipan-me-25 -->2026&#8209;09&#8209;13<!-- /availability-date:aipan-me-25 --> |
 | [宅男影视](<https://zndy.top/>) | 想看就看 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:zndy -->🟢&#8288;可&#8288;访问<!-- /availability:zndy --> | <!-- availability-date:zndy -->2026&#8209;09&#8209;13<!-- /availability-date:zndy --> |
 | [奈飞工厂](<https://naifei.fyi/>) | 国区可访问，资源无广 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:naifei-fyi-19 -->🟢&#8288;可&#8288;访问<!-- /availability:naifei-fyi-19 --> | <!-- availability-date:naifei-fyi-19 -->2026&#8209;09&#8209;13<!-- /availability-date:naifei-fyi-19 --> |
@@ -198,9 +199,9 @@
 | [找电影时光](<https://www.ldysg.win/>) | 影视高清晰无水印下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:ldysg -->🟢&#8288;可&#8288;访问<!-- /availability:ldysg --> | <!-- availability-date:ldysg -->2026&#8209;09&#8209;13<!-- /availability-date:ldysg --> |
 | [磁力帝](<https://www.cld123.com>) | 地址发布页cldi.top | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:cilidi -->🟡&#8288;访问&#8288;受限<!-- /availability:cilidi --> | <!-- availability-date:cilidi -->2026&#8209;09&#8209;13<!-- /availability-date:cilidi --> |
 | [SeedHub](<https://sidhub.cc/>) | 影视&动漫分享，页面纯净、无广告 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:sidhub-cc-7 -->🟡&#8288;访问&#8288;受限<!-- /availability:sidhub-cc-7 --> | <!-- availability-date:sidhub-cc-7 -->2026&#8209;09&#8209;13<!-- /availability-date:sidhub-cc-7 --> |
-| [POMO](<https://pomo.mom/>) | 4K原盘免费下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:4k-yuanpan -->🟢&#8288;可&#8288;访问<!-- /availability:4k-yuanpan --> | <!-- availability-date:4k-yuanpan -->2026&#8209;09&#8209;13<!-- /availability-date:4k-yuanpan --> |
+| [POMO](<https://pomo.mom/>) | 4K原盘免费下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:4k-yuanpan -->🔴&#8288;无法&#8288;访问<!-- /availability:4k-yuanpan --> | <!-- availability-date:4k-yuanpan -->2026&#8209;09&#8209;13<!-- /availability-date:4k-yuanpan --> |
 | [BT世界网](<https://www.btsj6.com>) | 高清电影美剧BT种子迅雷下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:btshijiewang -->🟢&#8288;可&#8288;访问<!-- /availability:btshijiewang --> | <!-- availability-date:btshijiewang -->2026&#8209;09&#8209;13<!-- /availability-date:btshijiewang --> |
-| [BT影视](<https://www.btbtla.com>) | 4k高清电影BT下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:bt-yingshi -->🔴&#8288;无法&#8288;访问<!-- /availability:bt-yingshi --> | <!-- availability-date:bt-yingshi -->2026&#8209;09&#8209;13<!-- /availability-date:bt-yingshi --> |
+| [BT影视](<https://www.btbtla.com>) | 4k高清电影BT下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:bt-yingshi -->🟢&#8288;可&#8288;访问<!-- /availability:bt-yingshi --> | <!-- availability-date:bt-yingshi -->2026&#8209;09&#8209;13<!-- /availability-date:bt-yingshi --> |
 | [美剧粉](<https://www.mjf2020.com>) | 全部高清无广告 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:meijufen -->🟢&#8288;可&#8288;访问<!-- /availability:meijufen --> | <!-- availability-date:meijufen -->2026&#8209;09&#8209;13<!-- /availability-date:meijufen --> |
 | [磁力熊](<https://www.cilixiong.org>) | 无删减、无广告 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:cilixiong -->🟢&#8288;可&#8288;访问<!-- /availability:cilixiong --> | <!-- availability-date:cilixiong -->2026&#8209;09&#8209;13<!-- /availability-date:cilixiong --> |
 | [爱努努](<https://video.ainunu.com/>) | 绿色影视下载 | 🌟&#8288;🌟&#8288;🌟&#8288;🌟 | <!-- availability:ainunu -->🟡&#8288;访问&#8288;受限<!-- /availability:ainunu --> | <!-- availability-date:ainunu -->2026&#8209;09&#8209;13<!-- /availability-date:ainunu --> |
@@ -423,6 +424,11 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 <td align="center" width="96">
   <a href="https://github.com/unilei"><img src="https://images.weserv.nl/?url=github.com/unilei.png&h=96&w=96&fit=cover&mask=circle" width="56" height="56" alt="@unilei"></a><br>
   <sub><strong>@unilei</strong></sub><br>
+  <sub>1 个资源</sub>
+</td>
+<td align="center" width="96">
+  <a href="https://github.com/goodsand"><img src="https://images.weserv.nl/?url=github.com/goodsand.png&h=96&w=96&fit=cover&mask=circle" width="56" height="56" alt="@goodsand"></a><br>
+  <sub><strong>@goodsand</strong></sub><br>
   <sub>1 个资源</sub>
 </td>
 </tr>
