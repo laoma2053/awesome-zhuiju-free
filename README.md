@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-0A66C2?style=flat-square" alt="网站 zhuiju.me" height="24"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-115_个资源-00A98F?style=flat-square" alt="已收录 115 个资源" height="24"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-114_个资源-00A98F?style=flat-square" alt="已收录 114 个资源" height="24"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/检测时间-2026--09--12-00B4D8?style=flat-square" alt="检测时间 2026-09-12" height="24"></a>
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/stargazers"><img src="https://img.shields.io/github/stars/laoma2053/awesome-zhuiju-free?style=flat-square&label=Stars&color=F7B801" alt="GitHub Stars" height="24"></a>
@@ -73,7 +73,7 @@
   <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓接口-15-38BDF8?style=flat-square" alt="TVBox/影视仓配置地址"></a>
   <a href="#直播源"><img src="https://img.shields.io/badge/直播源-1-E91E63?style=flat-square" alt="直播源"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-F97316?style=flat-square" alt="会员拼团"></a>
-  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-16-181717?style=flat-square" alt="开源项目"></a>
+  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-15-181717?style=flat-square" alt="开源项目"></a>
 </p>
 
 <details>
@@ -291,7 +291,6 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 | [quark-auto-save](<https://github.com/Cp0204/quark-auto-save>) | 夸克网盘自动签到转存整理工具 | 3,023 | 2026-07-09 |
 | [SeleneTV](<https://github.com/MoonTechLab/Selene>) | MoonTV v100/Helios 后端客户端 | 2,495 | 2026-05-25 |
 | [WebHomeTV](<https://github.com/fish2018/webhtv>) | 基于 FongMi/CatVod 二开的 Android 影音应用 | 1,355 | 2026-09-06 |
-| [羊壳 PeekPro](<https://github.com/ingriddaleusag-dotcom/PickTV>) | 基于 FongMi/TV 优化 UI | 1,069 | 2026-09-05 |
 | [WebHomeTV2](<https://github.com/Silent1566/webhtv>) | 基于 WebHomeTV 二开，支持 TMDB 海报 | 538 | 2026-09-07 |
 | [sky-tv](<https://github.com/sky22333/sky-tv>) | 现代化跨平台视频播放器空壳应用 | 102 | 2026-07-26 |
 

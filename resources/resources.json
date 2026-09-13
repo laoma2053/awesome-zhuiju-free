@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated_at": "2026-09-12",
+  "updated_at": "2026-09-13",
   "resources": [
     {
       "id": "no-video",
@@ -4217,58 +4217,6 @@
         "full_name": "sky22333/sky-tv",
         "stars": 102,
         "pushed_at": "2026-07-25T16:42:10Z"
-      }
-    },
-    {
-      "id": "yangke-peekpro-picktv",
-      "name": "羊壳 PeekPro",
-      "url": "https://github.com/ingriddaleusag-dotcom/PickTV",
-      "category": "open_source",
-      "summary": "羊壳 PeekPro 是基于 FongMi/TV 优化 UI 的开源项目。",
-      "summary_short": "基于 FongMi/TV 优化 UI",
-      "tags": [
-        "开源项目",
-        "Android",
-        "FongMi",
-        "TVBox",
-        "影音应用"
-      ],
-      "access": {
-        "requires_login": false,
-        "free_level": "free",
-        "regions": [
-          "GLOBAL"
-        ]
-      },
-      "scores": {
-        "more": 5,
-        "speed": 5,
-        "clean": 5,
-        "stable": 5,
-        "ease": 5
-      },
-      "risks": {
-        "copyright": "unknown",
-        "safety": "medium",
-        "privacy": "unknown",
-        "payment": "low"
-      },
-      "verification": {
-        "status": "recommended",
-        "last_checked": "2026-08-01",
-        "method": "manual",
-        "notes": "根据 GitHub 公开仓库信息收录；star 数与仓库更新时间来自 GitHub API。"
-      },
-      "source": {
-        "submitted_by": "maintainer",
-        "added_at": "2026-08-01"
-      },
-      "featured": true,
-      "featured_order": 13,
-      "github": {
-        "full_name": "ingriddaleusag-dotcom/PickTV",
-        "stars": 1069,
-        "pushed_at": "2026-09-05T15:14:10Z"
       }
     },
     {
