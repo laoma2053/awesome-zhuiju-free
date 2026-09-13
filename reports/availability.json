@@ -748,7 +748,7 @@
     },
     {
       "resource_id": "gugeso",
-      "url": "https://www.gugeso.com/",
+      "url": "https://gugeso.com/",
       "status": "reachable",
       "http_status": 200,
       "final_url": "https://gugeso.com/",

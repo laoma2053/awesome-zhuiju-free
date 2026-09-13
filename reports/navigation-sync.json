@@ -229,7 +229,7 @@
           {
             "name": "谷哥搜",
             "description": "支持9种网盘的综合搜索站",
-            "external_url": "https://www.gugeso.com/",
+            "external_url": "https://gugeso.com/",
             "sort": 3,
             "icon_status": "fetched"
           },
